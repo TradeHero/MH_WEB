@@ -1,0 +1,3 @@
+[submodule "TH-Web/WordPress"]
+	path = TH-Web/WordPress
+	url = git://github.com/WordPress/WordPress.git
