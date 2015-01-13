@@ -1,0 +1,29 @@
+#myhero {
+	background: #00C5CC url(../images/background-2.jpg) top center no-repeat;
+	background-size: cover;
+  	color: #ffffff;
+  	font-family: 'Raleway', sans-serif;
+  	text-align: center;
+  	min-height: 360px;
+}
+
+.top {
+	background: none;
+	padding: 24px;
+}
+#branding {
+	height: 80px;
+	margin: 24px;
+}
+
+#tradehero .img-responsive, #footballhero .img-responsive {
+	margin: 0 auto;
+}
+.screenshot {
+	width: 234px;
+}
+
+#morebutton{
+	height: 30px;
+	margin-bottom: 10px;
+}

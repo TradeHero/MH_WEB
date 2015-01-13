@@ -1,0 +1,23 @@
+body{
+  /*min-height: 2000px;
+  padding-top: 70px;*/
+	}
+
+.navbar{
+			background-color:#000000;
+			border:none;
+		}
+		
+.nav li{
+			margin-top:10px;
+		}
+		
+/* unvisited link */
+.nav li a:link {
+			color: #FFFFFF;
+		}
+		
+/* visited link */
+.nav li a:visited {
+			color: #FFFFFF;
+		}
