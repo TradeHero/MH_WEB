@@ -1,0 +1,512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"1376fb",
+				"1376fb"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Mark",
+				"Set Syntax: Markdown"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Albert/Desktop/webbie/blog.html",
+		"/Users/Albert/Desktop/webbie/index.html",
+		"/Users/Albert/TradeHero/TH-Web/wp-content/themes/th-2015/style.css",
+		"/Users/Albert/TradeHero/TH-Web/wp-content/themes/th-2015/index.php",
+		"/Users/Albert/TradeHero/TH-Web/wp-content/themes/th-2015/header.php",
+		"/Users/Albert/TradeHero/TH-Web/wp-content/themes/th-2015/page-blog.php",
+		"/Users/Albert/TradeHero/TH-Web/wp-content/themes/th-2015/footer.php",
+		"/Users/Albert/Sync/Resources/Web/Beetle HTML 1.1 pack/Beetle HTML/blog-list-sidebar.html",
+		"/Users/Albert/Sync/Resources/Web/Beetle HTML 1.1 pack/Beetle HTML/resume.html",
+		"/Users/Albert/Desktop/webbie/about",
+		"/Users/Albert/Sync/Resources/Web/Beetle HTML 1.1 pack/Beetle HTML/home-03.html",
+		"/Users/Albert/Sync/Resources/Web/Beetle HTML 1.1 pack/Beetle HTML/home-02.html",
+		"/Users/Albert/Sync/Resources/Web/Beetle HTML 1.1 pack/Beetle HTML/style.css",
+		"/Users/Albert/Sync/Resources/Web/base/skel-2.0.2.js",
+		"/Users/Albert/Sync/Resources/Web/base/index.html",
+		"/Users/Albert/Desktop/th2014/style.css",
+		"/Users/Albert/Desktop/th2014/page-home.php",
+		"/Users/Albert/Desktop/th2014/css/style.css",
+		"/Users/Albert/Desktop/header.php",
+		"/Users/Albert/Desktop/style.css",
+		"/Users/Albert/Desktop/2048.css",
+		"/Users/Albert/Desktop/normalize.css",
+		"/Users/Albert/Desktop/index.html",
+		"/Users/Albert/Downloads/normalize.css-master/normalize.css",
+		"/Users/Albert/Desktop/_blackhole/refer/tradehero.mobi/js/wizard.js",
+		"/Users/Albert/Desktop/_blackhole/FileZilla.xml",
+		"/Users/Albert/Desktop/page-blog.php",
+		"/Users/Albert/Sync/Templates/SketchToAppStore/README.md",
+		"/Users/Albert/Desktop/FileZilla.xml",
+		"/Users/Albert/TradeHero/TH-Web/wp-content/themes/th2014/style.css",
+		"/Users/Albert/Desktop/wp-config.php",
+		"/Users/Albert/TradeHero/TH-Web/wp-config.php",
+		"/Users/Albert/Downloads/Ftp profilog@profilogy.com.sg.xml",
+		"/Users/Albert/TradeHero/TH_Web/wp-config.php",
+		"/Users/Albert/Desktop/_zz/FileZilla.xml",
+		"/Users/Albert/TradeHero/TH_Web2/wp-config.php",
+		"/Users/Albert/TradeHero/wordpress-starter/index.php",
+		"/Users/Albert/TradeHero/wordpress-starter/wp-config.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/style.css",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/css/style.css",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/header.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/functions.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/page.php",
+		"/Users/Albert/Downloads/th2014 update 3-3/style.css",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/page-community.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/page-competition.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/page-faq.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/page-home.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/navhero.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/page-partners.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/page-blog.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/page-learning.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/navsimple.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/nav-hero.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/nav-simple.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/css/revolution.settings.css",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/footer.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/single.php",
+		"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014/page-faq",
+		"/Users/Albert/Downloads/th2014 update 3-4/page-blog.php",
+		"/Users/Albert/Downloads/th2014 update 3-4/style.css",
+		"/Users/Albert/TradeHero/TH_Web/wp-config-sample.php",
+		"/Users/Albert/TradeHero/MH_Web/css/custom.css",
+		"/Users/Albert/Downloads/animate.css-master/README.md",
+		"/Users/Albert/TradeHero/MH_Web/index.html",
+		"/Users/Albert/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Albert/TradeHero/MH_Web/index-2.html",
+		"/Users/Albert/TradeHero/MH_Web/css/main_2.css",
+		"/Users/Albert/TradeHero/TH_SVR/TH_API/Views/Home/Terms.cshtml",
+		"/Users/Albert/TradeHero/TH_SVR/TH_API/Views/Home/About.cshtml",
+		"/Users/Albert/TradeHero/TH_SVR/TH_API/Views/Home/Careers.cshtml",
+		"/Users/Albert/TradeHero/TH_SVR/TH_API/Views/Home/Press.cshtml",
+		"/Users/Albert/TradeHero/TH_SVR/TH_API/Views/Home/Privacy.cshtml",
+		"/Users/Albert/TradeHero/TH_SVR/TH_API/Views/Home/FAQ.cshtml",
+		"/Users/Albert/TradeHero/TH_Web_CN/wp-content/themes/th2014/style.css",
+		"/Users/Albert/TradeHero/TH_Web/thweb.sublime-workspace",
+		"/Users/Albert/Downloads/etoro-land 2/index.html",
+		"/Users/Albert/Desktop/landing-page-experiment/app/styles/components/components.css",
+		"/Users/Albert/Desktop/landing-page-experiment/app/styles/main.css",
+		"/Users/Albert/Desktop/landing-page-experiment/app/index.html",
+		"/Users/Albert/Desktop/landing-page-experiment/app/scripts/main.js",
+		"/Users/Albert/Downloads/web-starter-kit-0.4.0/app/index.html",
+		"/Users/Albert/Downloads/Meemo/casio-edifice-exclusive-series.html",
+		"/Users/Albert/Downloads/Meemo/W215.html",
+		"/Users/Albert/Downloads/Meemo/Protrek.html",
+		"/Users/Albert/Downloads/Meemo/Protrek2.html",
+		"/Users/Albert/Downloads/Meemo/SportyDesignRv.html",
+		"/Users/Albert/Downloads/Meemo/DualTimeRv.html",
+		"/Users/Albert/Downloads/Meemo/CASIO EDIFICE PREMIUM SERIES.html",
+		"/Users/Albert/Downloads/Meemo/casio-edifice-EFR500-series.html",
+		"/Users/Albert/Downloads/Meemo/CASIO EDIFICE PREMIUM SERIES.rtf",
+		"/Users/Albert/Downloads/Meemo/casio-edifice-premium-series.html",
+		"/Users/Albert/Downloads/augustchallenge/css/style.css",
+		"/Users/Albert/TradeHero/Design/TH Web 2014/web/css/font-lineicons.css",
+		"/Users/Albert/TradeHero/Design/TH Web 2014/web/css/style.css",
+		"/Users/Albert/TradeHero/Design/TH Web 2014/web/learning.html",
+		"/Users/Albert/TradeHero/Design/TH Web 2014/web/partners.html",
+		"/Users/Albert/TradeHero/Design/TH Web 2014/web/index.html",
+		"/Users/Albert/TradeHero/Design/TH Web 2014/web/partners",
+		"/Users/Albert/TradeHero/Design/TH Web 2014/web/thweb.sublime-project",
+		"/Users/Albert/TradeHero/Design/TH Web 2014/Startuply/Startuply_HTML/index.html",
+		"/Users/Albert/Desktop/stuff",
+		"/Users/Albert/Downloads/Startuply/Startuply_HTML/index.html",
+		"/Users/Albert/Downloads/Startuply/Startuply_HTML/assets/css/style.css",
+		"/Users/Albert/Desktop/web/files/css/custom.css",
+		"/Users/Albert/Desktop/test.html",
+		"/Users/Albert/Desktop/web/files/index.html",
+		"/Users/Albert/Desktop/Community",
+		"/Users/Albert/Desktop/text.txt",
+		"/Applications/MAMP/htdocs/th_web/wp-content/themes/TradeHero/header.php",
+		"/Applications/MAMP/htdocs/th_web/wp-content/themes/TradeHero/page-homepage.php",
+		"/Applications/MAMP/htdocs/th_web/wp-content/themes/TradeHero/custom.css",
+		"/Applications/MAMP/htdocs/th_web/wp-config.php",
+		"/Users/Albert/Desktop/sites.txt",
+		"/Users/Albert/TradeHero/TH_SVR/TH_API/Views/Home/SGXStockWhiz.cshtml~RFda2d64.TMP",
+		"/Users/Albert/Downloads/SGX Eula(edit).html",
+		"/Users/Albert/Downloads/SGX Eula-1.html",
+		"/Users/Albert/Downloads/SGX Eula.html",
+		"/Users/Albert/Desktop/TH_zh/css/carousel.css",
+		"/Users/Albert/Desktop/TH_zh/css/custom.css",
+		"/Users/Albert/Desktop/TH_zh/index.html",
+		"/Users/Albert/Downloads/bootstrap-3.1.1/docs/examples/carousel/index.html",
+		"/Users/Albert/Downloads/TradeHero - Take a Position. Trade..html",
+		"/Users/Albert/Desktop/tradehero.mobi/index..html",
+		"/Users/Albert/Downloads/initializr/css/main.css",
+		"/Users/Albert/Downloads/initializr/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Albert/TradeHero/TH_Web/wp-content/themes/th2014"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bg-home",
+			"img",
+			"fonts",
+			"<div class=\"meta-social\">\n										<ul class=\"inline\">\n											<li><a href=\"#\" class=\"twitter-share border-box\"><i class=\"fa fa-twitter fa-lg\"></i></a></li>\n											<li><a href=\"#\" class=\"facebook-share border-box\"><i class=\"fa fa-facebook fa-lg\"></i></a></li>\n											<li><a href=\"#\" class=\"pinterest-share border-box\"><i class=\"fa fa-pinterest fa-lg\"></i></a></li>\n										</ul>\n									</div>",
+			"Montserrat",
+			"Mont",
+			"blue",
+			"intro",
+			"11.",
+			"@media",
+			".svg",
+			"</strong>",
+			"<strong>",
+			"<div class=\"container\"><section id=\"faq\" class=\"content\"><article>\n<h1>FAQ/Help</h1>\n<div class=\"row\">\n<div class=\"span7\">\n\n<a name=\"general\"></a>\n<h3>General</h3>\n<p><strong>Is TradeHero a free app?</strong>\nTradeHero is a free mobile app – free to download and free to use! Better yet, you can use TradeHero to actually make money!</p>\n\n<p><strong>Which devices is TradeHero available on?</strong></p>\n\n<p>TradeHero is available for both iOS and Android devices.</p>\n<a href=\"https://itunes.apple.com/us/app/tradehero-mobile/id572226383?mt=8\" target=\"_blank\">Download the iOS version</a>\n<a href=\"https://play.google.com/store/apps/details?id=com.tradehero.th\" target=\"_blank\">Download the Android version</a>\n\n<p><strong>How do I earn money from followers?</strong><br />\nFor every user who pays to follows you, TradeHero will collect a fee, and share half of the fee with you. Enter your Paypal email details into the settings page in the app, and once you have a minimum amount in your cash balance, the amount will be credited into your paypal account. Future versions of TradeHero will have a detailed page to view cash balance and followers. Make more trades, gather more followers, and earn more!</p>\n\n<p><strong>What do I get from following a Hero?</strong></p>\n\n<p>You will receive push notifications to your phone whenever the Hero makes a trade, enabling you to follow the trade in real-life if you wish. Push notifications will also be sent whenever the Hero makes a comment such as stock advice and stock tips.You will also be able to view the Hero’s current open positions.</p>\n\n<p><strong>Is this the final version?</strong></p>\n\n<p>We are continually improving TradeHero in light of your feedback. We strongly recommend that you update your app when prompted, so that you get the latest and greatest features and benefits.</p>\n\n<p><strong>How can I suggest any change/improvement/opinion?</strong></p>\n\n<p>Your feedback and input is of utmost importance to us. Please feel free to</p>\n\n<p><strong>How do I trade?</strong></p>\n\n<p>Every user starts with a $100,000 initial virtual cash to trade with. Buy stocks in the buy screen to begin your trading journey!</p>\n\n<strong>Is there a system in place to prevent cheating?</strong>\n\nRest assured that we are constantly monitoring and taking all necessary measures to prevent cheating. Our dedicated team of software engineers are working round the clock to make sure that all loopholes are closed.\n\n<strong>I got an error message while signing up/ I can’t sign in through Facebook</strong>\n\nMake sure that you are choosing the correct option: “New User” to register, and “Existing User” to sign in if you have already registered. For Facebook sign in, make sure you have authorized TradeHero to access your Facebook details.\n\n<strong>I have received this error: \"Timestamp/ Please check your device date and time.\" How can I solve this</strong>\n\nPlease make sure your clock in your iPhone is set to the correct local time. You can go to your iPhone's general settings, clock settings, and set automatic, or choose your country's clock.\n\n<strong>I have received this error: \"invalid quote date (crossed quotes)\"</strong>\n\nIn a fair market situation, a bid price is lower than the ask price. However, occasionally, during closed market, the bid is seen higher than ask creating a crossed market. Until the bid and ask price reverts back to the fair market situation (where bid is lower than ask), we do not allow anyone to trade. A simple solution would be to wait till the market is open to make the trade, as prices will be more stable then.\n\n&nbsp;\n\n<a name=\"terminology\"></a>\n<h3>Trading Terminology</h3>\n<strong>What is ROI?\n</strong>The Return on Investment (“ROI”) is the most important value to track. It’s used to calculate your position on the global leaderboards. It is the percentage increase in the value of the stocks you have purchased. Keeping a consistently positive ROI is the best way to gather a huge amount of followers!\n\nROI = (Gain from Investment - Cost of Investment) / Cost of Investment * 100\n\nFor example:\n\n<em>You invest $1000 to buy 2 different stocks\n1 month later, the value of your investment goes up by $100 to $1100\nYour ROI will for the 1 month duration is: ($1100 - $1000) / $1000 *100 = 10%</em>\n\n&nbsp;\n\n<strong>What is P&amp;L?</strong>\nThe Profit and Loss (“P&amp;L”) is the sum of the realized and unrealized profits for each of the stocks (or “positions”) that you hold. The un-realized portion of your P&amp;L will change each day depending on the current market price of the stock. Producing a high P&amp;L means that you are making good use of your trading cash!\n\nProfit and Loss (“P&amp;L”) = Realized P&amp;L + Unrealized P&amp;L, where\n\nRealized P&amp;L = Quantity Sold * (Sell Price - Purchase Price) – Trading Cost\n\nUnrealized P&amp;L = Unsold Quantity * (Current Price - Purchase Price)\n\nExample: P&amp;L changes over several days\n\n<em>Nov 10, Bought 100 shares of Apple at 600.00; P&amp;L = -10 (no change in price, just trade cost)\n</em><em>Nov 12, Sold 40 shares at 610.00; P&amp;L = Realized (40*10 -10) + Unrealized (60*10) = $990\n</em><em>Nov 14, Apple closed at 615.00; P&amp;L = Realized ($390) + Unrealized ($900) = $1290\n</em><em>Nov 15, Sold remaining 60 Shares at $590; P&amp;L = Realized ($390 + (-$610)) = -$220 (negative P&amp;L</em>\n\n&nbsp;\n\n<strong>What is P&amp;L on your profile page?</strong>\nThe net aggregate P&amp;L on your profile page is the change in dollar value of your portfolio (gain or loss) since you started using TradeHero.\n\n&nbsp;\n\n<a name=\"rules\"></a>\n<h3>Market Rules</h3>\n<strong>What securities can I trade?\n</strong>Securities in the following exchanges are covered in TradeHero:\nNorth America: New York, Nasdaq, OTCBB, Toronto\nEurope: London, Paris, Milan, Amsterdam, Brussels, Lisbon\nAsia Pacific: Singapore, Hong Kong, Australia, New Zealand\n\n&nbsp;\n\n<strong>Can I choose my own trade price?\n</strong>No. TradeHero obtains and assigns the stock price based on the current Ask price if you are buying, and Bid price if you are selling, or if neither is available, the last traded price from the market.\n\n&nbsp;\n\n<strong>Can I Sell Short?</strong>\nDue to the concept of margin requirements, stock location and local exchange regulations, which makes it difficult for followers to follow Short Sales, TradeHero currently does not offer Short Sell.\n\n&nbsp;\n\n<strong>Why do I see -$10 each time I buy/sell a stock?</strong>\nTradeHero imposes $10 as a transaction cost for each trade, simulating the typical cost of trading imposed by brokers.\n\n&nbsp;\n\n<strong>Can I trade outside local market trading hours? If so, what price do I get?</strong>\nYes, you will get the current Bid/Ask price of the market, or the last traded price from the market.\n\n&nbsp;\n\n<strong>Is there a minimum holding period for stocks?</strong>\nYes, there is a 60 minute minimum holding period. This is because of the possible delay of stock prices from our data feeds.\n\n&nbsp;\n\n<strong>What is the maximum number of shares per transaction? </strong>\n\nCurrently, TradeHero limits each transaction to a certain fraction of trading volume of a particular stock, in order to simulate real market conditions.\n\n&nbsp;\n\n<strong>Why is there a lag in the prices of the stock? </strong>\n\nTradeHero collects data across different stock exchanges and time zones, so some lag may be inevitable, but we are working to minimise the gap between the real world data and our stock prices. We would like to seek your patience and understanding on this matter.\n\n&nbsp;\n\n<a name=\"leaderboards\"></a>\n<h3>The TradeHero Community: Leaderboards</h3>\n<strong>How are the members ranked on the Leaderboard?\n</strong>Users are ranked based on different criteria relative to other users on the same leaderboard. You can tap the icon on the top right corner of each leaderboard to choose different variables to sort by, which include ROI, Hero Quotient, Number of Followers, Number of Comments, Sharpe Ratio. The criteria for inclusion in any given leaderboard vary. For example, some leaderboards are reserved for traders who have been active on specific exchanges. Other leaderboards relate to trades that fall within a specific date range.\n\n&nbsp;\n\n<strong>What is the \"Most Skilled\" Leaderboard?</strong>\nThe \"Most Skilled\" Leadboard uses our proprietary ranking algorithm, called the \"Hero Quotient\", to find the best Heroes based on a unique set of trading metrics. Some variables of the \"Hero Quotient\" include number of stocks traded, average holding period, ROI and Sharpe Ratio.\n\n&nbsp;\n\n<strong>Does ranking get reset every month?</strong>\nThe global leaderboard is a reflection on performance since inception, and doesn’t get reset each month. The monthly leaderboards by contrast do get reset each month, and previous month’s performance doesn’t affect current month performance.\n\n&nbsp;\n\n<strong>Do leaderboards get immediately updated when I buy or sell a stock?</strong>\nDepending on how many users are active at the time, the delay between placing a trade and us updating the leaderboards can vary, but in general, we try and update the leaderboards as frequently as possible.\n\n&nbsp;\n\n<a name=\"heroes\"></a>\n<h3>How to Follow: Heroes</h3>\n<strong>How do I follow a Hero?</strong>\nTo follow a Hero, click on the “Follow User” button. One TradeHero Content Credit will be deducted per month. Each TradeHero Content Credit costs US$ 1.99.\n\n&nbsp;\n\n<strong>Can I search for a specific Hero</strong>\nYes, simply enter the user's name in the search bar, then tap the icon on the right of search bar and search for \"People\".\n\n<strong>What do I get when I follow someone?</strong>\nFollowing a Hero will give you instant push notifications whenever the Hero makes a trade or a comment. You can also see their trade details of open positions and their personal stock tips and posts on their profile timeline.\n\n<strong>Is there any real money involved in trading?</strong>\nNo. All the trades are done using virtual money.\n\n&nbsp;\n\n<strong>Who can see my trades? </strong>\n\nYou can choose to post the record of your trade on your timeline, visible to everyone, or only to your followers.\n\n&nbsp;\n\n<strong>Is there a limit on the number of people I can follow?</strong>\nNo limit!\n\n&nbsp;\n\n<strong>Can I set my own subscription fee prices?</strong>\nNot at the moment, but do watch this space!\n\n&nbsp;\n\n<strong>When will the money be credited into my account?</strong>\nWe will credit money to your account when your balance hits US$50. You can track the amount you have earned so far in the follower management screen, located in the Heroes tab.\n\n&nbsp;\n\n<a name=\"alerts\"></a>\n<h3>Stock Alerts</h3>\n<strong>What are Stock Alerts?</strong>\nStock Alerts are notifications that will alert you when a stock reaches a target price, or when the price moves by a target percentage. You will receive these notifications as a push notification and as an email.\n\n&nbsp;\n\n<strong>Why would I use Stock Alerts?</strong>\nStock Alerts can let you know the best time to take action on a stock. For example, you can set a Stock Alert to let you know when a stock you own has dropped to a price point where you want to sell to limit your losses, or when a stock you own has risen by a certain percentage and you want to sell to lock in profit.\n\n&nbsp;\n\n<strong>How does it work?</strong>\nGo to the buy/sell page of a stock you want to be alerted on, then tap on the \"alarm\" button. Set your price targets and submit, then you will be prompted to subscribe to Stock Alerts. Choose your appropriate price plan, based on the number of active stocks you want to track, and you are done! You will now receive Stock Alert push and email notifications.\n\n&nbsp;\n\n<strong>Are Stock Alert notifications real-time?</strong>\nThe notification is instantaneous; however, stock prices from our data feed has some inherent delay of around 15 minutes.\n\n&nbsp;\n\n<strong>Can my followers see my stock alerts / Can I see my hero's stock alerts?</strong>\nCurrently users cannot view each other's stock alerts, but this might be a feature we will add in the future. Please let us know your thoughts on stock alerts at <a href=\"mailto:support@tradehero.mobi\">support@tradehero.mobi</a>\n\n&nbsp;\n\n<a name=\"glossary\"></a>\n<h3>TradeHero Glossary</h3>\n<strong>Invested:</strong>\nThe amount of money you used to purchase stocks\n\n&nbsp;\n\n<strong>Realized P&amp;L: </strong>\n\nThe amount of money you gained or lost when you sold the stock\n\n&nbsp;\n\n<strong>Unrealized P&amp;L:</strong>\nThe amount of money you will gain/lose if you sell the stock now\n\n&nbsp;\n\n<strong>P&amp;L:</strong>\nRealized P&amp;L plus Unrealized P&amp;L\n\n&nbsp;\n\n<strong>ROI:</strong>\nStock ROI = Individual stock P&amp;L divided by Invested in that stock\nPortfolio ROI = Sum of all Stocks P&amp;L divided by Sum of Invested\n\n&nbsp;\n\n<strong>Open Value:</strong>\nThe current market value of your unsold stocks\n\n&nbsp;\n\n<strong>Quantity:</strong>\nNumber of shares of a specific stock you currently hold\n\n&nbsp;\n\n<strong>Avg. Price:</strong>\nThe average purchase price of a stock you bought over time\n\n&nbsp;\n\n<strong>Total Value:</strong>\nCurrent value of your portfolio (including the initial $100,000)\n\n&nbsp;\n\n<strong>Cash:</strong>\nCash amount available to you now for additional trading (investment)\n\n&nbsp;\n\n<strong>Followers:</strong>\nThe number of paid-up users who can view your trading activity\n\n</div>\n<!--/span7-->\n<div class=\"span3\"><aside id=\"fixed-sidebar\">\n<ul class=\"nav nav-list\">\n	<li class=\"nav-header\">FAQ Sections</li>\n	<li><a href=\"#general\">General</a></li>\n	<li><a href=\"#terminology\">Trading Terminology</a></li>\n	<li><a href=\"#rules\">Market Rules</a></li>\n	<li><a href=\"#leaderboards\">Leaderboards</a></li>\n	<li><a href=\"#heroes\">Heroes</a></li>\n	<li><a href=\"#alerts\">Stock Alerts</a></li>\n	<li><a href=\"#glossary\">Glossary</a></li>\n</ul>\n</aside></div>\n</div>\n</article></section></div>",
+			"home",
+			"ho",
+			"simple",
+			"fixmenu",
+			"fixmenu-clone",
+			"end",
+			"partners",
+			"shortcode",
+			"learning",
+			"hero-",
+			"her0-bg",
+			"home",
+			"showHere",
+			"home",
+			"showHere",
+			"shortco",
+			"lederning",
+			"password",
+			"pass",
+			"/*",
+			"ceter",
+			"shortcode",
+			"font-size",
+			"main",
+			"-",
+			"(",
+			"215",
+			"512",
+			"215",
+			"W215",
+			"215",
+			"EFR528RB-1A",
+			"EFR528",
+			"ERA",
+			"ERA200DB",
+			"EQS1100",
+			"EQS",
+			"528",
+			"EFR528",
+			"528",
+			"520",
+			"520L",
+			"a href==",
+			" </center><a",
+			"<!--&mdash; divider&mdash;-->",
+			"</a><center><a href=\"http://watchspree.com.sg/Edifice/New/[^<]+.html\" target=\"_blank\"></a><a href",
+			"</center><a href=[^<]+>",
+			"<!-- Model H=[^<]+ -->",
+			"<!--&mdash; Model H=[^<]+ &mdash;-->",
+			"<!--&mdash; Model H=680 &mdash;-->",
+			"<center><a href=\"http://watchspree.com.sg/Edifice/New/[^<]+.html\" target=\"_blank\"></a><a href",
+			"<center><a href=\"http://watchspree.com.sg/Edifice/New/[^<]+.html\" target=\"_blank\"><a href",
+			"</center><a href=\"http://watchspree.com.sg/Edifice/New/[^<]+.html\" target=\"_blank\">",
+			"</center><a href=\"http://watchspree.com.sg/Edifice/New/*.html\" target=\"_blank\">",
+			"</a><center>",
+			"H=680 -->",
+			"H=608 -->",
+			"H=611 -->",
+			"<!-- Model",
+			"&mdash;",
+			"&mdash",
+			"<!--&mdash",
+			"#august",
+			"make money",
+			"earn money",
+			"924",
+			"974px",
+			"#hero",
+			".static-header",
+			"university",
+			"features",
+			"#color-landing-page .static-header",
+			"static-header",
+			"title",
+			"hero",
+			"planet",
+			"globe",
+			"static",
+			".stati",
+			"hero-3",
+			"poly",
+			"#1ac6ff",
+			"static-header",
+			"hero-bg",
+			"hero-img",
+			"fixmenu",
+			"clone",
+			"189",
+			"289",
+			".hero-img { padding-top: 135px; }",
+			"responsive",
+			"hero",
+			"bg",
+			"app",
+			"footer",
+			"awards",
+			"our awards",
+			"brand-logo",
+			"assets/",
+			"assets/img",
+			"assets/js",
+			"assets/css",
+			"class=\"pus",
+			"img",
+			"img/",
+			"/Webclient/img",
+			"app-store",
+			"./TradeHero - Take a Position. Trade._files/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"Source Sans Pro",
+			"</strong></p>",
+			"<p><strong>",
+			"",
+			"a href=",
+			"<center><a",
+			"\\n<!-- divider -->\\n",
+			"\\n<!-- divider -->",
+			"</center><a href=",
+			"</center>",
+			"\\n\\n<!-- Model H=680 -->\\n",
+			"<!-- Model H=680 -->\\n",
+			"<center><a href",
+			"</center>\\n",
+			"</center>",
+			"<center>",
+			"H=680 -->\\n",
+			"H=611 -->\\n",
+			"\\n\\n<!-- Model",
+			"\\n<!-- Model",
+			"",
+			"#provider-28",
+			"#1376fb",
+			"img",
+			"js",
+			"css",
+			"../img",
+			"img",
+			"js/",
+			"img/",
+			"./TradeHero - Take a Position. Trade._files/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "th-2015.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 330.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
