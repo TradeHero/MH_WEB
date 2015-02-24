@@ -15,7 +15,11 @@ get_header(); ?>
 			</div><!-- intro -->				
 		</div><!-- intro-wrap -->
 		<div id="main">
-			<p><?php the_content(); ?></p>
+			<section class="row section">
+				<div class="row-content buffer even clear-after">				
+					<p><?php the_content(); ?></p>
+				</div>
+			</section>	
 		</div>
 	</article>
 
