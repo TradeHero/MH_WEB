@@ -1,11 +1,12 @@
-<?php /* Default page template */
+<?php 
+/* Default page template */
 get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<div id="intro-wrap">
-		<div id="intro" class="preload darken">
+			<div id="intro" class="preload darken">
 			<?php $background = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
 				<div class="intro-item" style="background: url('<?php echo $background['0'];?>')">
 					<div class="caption">
@@ -17,10 +18,10 @@ get_header(); ?>
 		<div id="main">
 			<section class="row section">
 				<div class="row-content buffer even clear-after">				
-					<p><?php the_content(); ?></p>
+					<?php the_content(); ?>
 				</div>
 			</section>	
-		</div>
+		</div><!-- End #main -->
 	</article>
 
 <?php endwhile; ?>
