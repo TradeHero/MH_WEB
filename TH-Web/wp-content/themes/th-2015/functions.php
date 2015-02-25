@@ -34,49 +34,64 @@
 	}
 	add_action( 'after_setup_theme', 'add_post_formats', 20 );
 
-	// Halves
+	// Columns: Halves
 
 	function one_half($attr, $content = null ) {
-		return '<div class="column six">' . do_shortcode($content) . '</div>';
+		return '<div class="column six ' . $attr['class'] . ' ">' . do_shortcode($content) . '</div>';
 	}
 	add_shortcode('one_half', 'one_half');
 
 	
 	function one_half_last($attr, $content = null ) {
-		return '<div class="column six last">' . do_shortcode($content) . '</div>';
+		return '<div class="column six last ' . $attr['class'] . ' ">' . do_shortcode($content) . '</div>';
 	}
 	add_shortcode('one_half_last', 'one_half_last');
 
-	// Thirds
+	// Columns: Thirds
 	
 	function one_third($attr, $content = null ) {
-		return '<div class="column four">' . do_shortcode($content) . '</div>';
+		return '<div class="column four ' . $attr['class'] . ' ">' . do_shortcode($content) . '</div>';
 	}
 	add_shortcode('one_third', 'one_third');
 
 	
 	function one_third_last($attr, $content = null ) {
-		return '<div class="column four last">' . do_shortcode($content) . '</div>';
+		return '<div class="column four last ' . $attr['class'] . ' ">' . do_shortcode($content) . '</div>';
 	}
 	add_shortcode('one_third_last', 'one_third_last');
 
-	// Fourths
+	// Columns: Fourths
 
 	function one_fourth($attr, $content = null ) {
-		return '<div class="column three">' . do_shortcode($content) . '</div>';
+		return '<div class="column three ' . $attr['class'] . ' ">' . do_shortcode($content) . '</div>';
 	}
 	add_shortcode('one_fourth', 'one_fourth');
 
 	
 	function one_fourth_last($attr, $content = null ) {
-		return '<div class="column three last">' . do_shortcode($content) . '</div>';
+		return '<div class="column three last ' . $attr['class'] . ' ">' . do_shortcode($content) . '</div>';
 	}
-	add_shortcode('one_half_last', 'one_half_last');
+	add_shortcode('one_fourth_last', 'one_fourth_last');
 
 	function three_fourths($attr, $content = null ) {
-		return '<div class="column nine">' . do_shortcode($content) . '</div>';
+		return '<div class="column nine ' . $attr['class'] . ' ">' . do_shortcode($content) . '</div>';
 	}
 	add_shortcode('three_fourths', 'three_fourths');
 
+	function three_fourths_last($attr, $content = null ) {
+		return '<div class="column nine last ' . $attr['class'] . ' ">' . do_shortcode($content) . '</div>';
+	}
+	add_shortcode('three_fourths_last', 'three_fourths_last');
 
+
+	// Sections
+
+	function section($attr, $content = null ) {
+		return 
+			'<section class="row section"><div class="row-content clear-after ' . $attr['class'] . ' ">'
+				. do_shortcode( $content ) .
+			'</div></section>'		
+		;
+	}
+	add_shortcode('section', 'section');
 ?>
