@@ -4,3 +4,6 @@
 [submodule "TH-Web/wp-content/plugins/ckeditor-for-wordpress"]
 	path = TH-Web/wp-content/plugins/ckeditor-for-wordpress
 	url = https://github.com/ckeditor-for-wordpress/ckeditor-for-wordpress.git
+[submodule "TH-Web/wordpress"]
+	path = TH-Web/wordpress
+	url = https://github.com/WordPress/WordPress.git
