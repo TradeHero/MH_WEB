@@ -22,21 +22,7 @@ get_header(); ?>
 		</div><!-- intro -->
 	</div><!-- end #intro-wrap -->
 	<div id="main">
-		<section class="row section">
-			<div class="row-content buffer even clear-after">				
-				<p><?php the_content(); ?></p>
-			</div>
-		</section>
-		<section class="row section">
-			<div class="row-content buffer-top buffer-bottom clear-after">
-				<?php the_block( 'Features1' ); ?>
-			</div>
-		</section>
-		<section class="row section">
-			<div class="row-content buffer-top buffer-bottom clear-after">
-				<?php the_block( 'Features2' ); ?>
-			</div>
-		</section>	
+		<?php the_content(); ?></p>
 	</div><!-- End #main -->
 	<?php endwhile; ?>
 	<?php endif; ?>

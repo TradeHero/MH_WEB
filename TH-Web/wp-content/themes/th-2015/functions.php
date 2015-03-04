@@ -34,6 +34,16 @@
 	}
 	add_action( 'after_setup_theme', 'add_post_formats', 20 );
 
+	// Add the slug to the page class
+	function add_body_class( $classes ) {
+    global $post;
+    if ( isset( $post ) ) {
+        $classes[] = $post->post_type . '-' . $post->post_name;
+    }
+    return $classes;
+	}
+	add_filter( 'body_class', 'add_body_class' );
+
 	// Columns: Halves
 
 	function one_half($attr, $content = null ) {
