@@ -640,8 +640,10 @@ nav ul.sub-menu > li:last-child > a {
 
 .caption,
 .caption h2,
+.caption h3,
 .caption-mockup,
 .caption-mockup h2,
+.caption-mockup h3,
 .photocaption,
 .photocaption h4 {
     color: #fff;
@@ -660,12 +662,18 @@ nav ul.sub-menu > li:last-child > a {
     font-size: 3em;
 }
 
+.caption h3,
+.caption-mockup h3 {
+    font-weight: 400;
+}
+
 .caption h2 {
     margin-top: 0;
 }
 
 .caption p,
 .caption-mockup p {
+    font-size: 1.111em;
     margin-top: 0;
 }
 
