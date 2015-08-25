@@ -1,0 +1,29 @@
+/******************************************************************
+Theme Name: TradeHero
+Theme URI: http://tradehero.mobi
+Description: TradeHero's very own WordPress theme!
+Author: Albert Camacho
+Author URI: http://tradehero.mobi
+Version: 0.9
+Tags: 
+******************************************************************/
+body {
+font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+line-height: 24px;
+color: #333;
+}
+
+#nav #menu-main >li>a {
+float: none;
+padding: 10px 15px 10px;
+color: #777;
+text-decoration: none;
+font-size: 1em;
+font-weight: bold;
+text-align: center;
+}
+
+#nav #menu-main li a:focus, #nav #menu-main li a:hover {
+  color: #333;
+}

@@ -1,0 +1,1773 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"back",
+				"background-clip"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"indi",
+				"indicatorHeight"
+			],
+			[
+				"canvas",
+				"canvasWidth"
+			],
+			[
+				"sca",
+				"scaleLength"
+			],
+			[
+				"scal",
+				"scaleColor"
+			],
+			[
+				"ang",
+				"angleBottomPoint2"
+			],
+			[
+				"angle",
+				"angleBottomPoint1"
+			],
+			[
+				"line",
+				"lineWidth"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"get",
+				"getVideoData"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"leader",
+				"leaderboardChart"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"temp",
+				"template_url"
+			],
+			[
+				"marign",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"slider",
+				"sliderType"
+			],
+			[
+				"range",
+				"range-slider"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"G",
+				"Gothic"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"is",
+				"isActive"
+			],
+			[
+				"toggle",
+				"toggleContent"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"active",
+				"activeLinks"
+			],
+			[
+				"tog",
+				"toggleContent"
+			],
+			[
+				"link",
+				"linksSelector"
+			],
+			[
+				"acti",
+				"activeClass"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"js",
+				"jshint"
+			],
+			[
+				"css",
+				"cssmin"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"chil",
+				"childrenLen"
+			],
+			[
+				"next",
+				"nextSection"
+			],
+			[
+				"intro",
+				"intro-left"
+			],
+			[
+				"ne",
+				"nextSection"
+			],
+			[
+				"nx",
+				"nextSection"
+			],
+			[
+				"screen",
+				"screenHeight"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"list",
+				"list	list-style-type"
+			],
+			[
+				"int",
+				"intro2Active"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"curr",
+				"currentRoundGroup"
+			],
+			[
+				"tool",
+				"toolEffects"
+			],
+			[
+				"fram",
+				"frameName"
+			],
+			[
+				"_coin",
+				"_coinBounceTween"
+			],
+			[
+				"de",
+				"delay"
+			],
+			[
+				"for",
+				"formatScore"
+			],
+			[
+				"on",
+				"onComplete"
+			],
+			[
+				"rew",
+				"rewardTween"
+			],
+			[
+				"bal",
+				"balanceCoinTween"
+			],
+			[
+				"coin",
+				"coinMoveTween"
+			],
+			[
+				"_balan",
+				"_balanceBg"
+			],
+			[
+				"_ba",
+				"_balanceBg"
+			],
+			[
+				"ava",
+				"avatarOptions"
+			],
+			[
+				"_ava",
+				"_avatar"
+			],
+			[
+				"ro",
+				"rotation"
+			],
+			[
+				"crown",
+				"crownScaleTween"
+			],
+			[
+				"S",
+				"Sinusoidal"
+			],
+			[
+				"value",
+				"valueBg"
+			],
+			[
+				"pos",
+				"posX"
+			],
+			[
+				"max",
+				"maxCols"
+			],
+			[
+				"_value",
+				"_valueBg"
+			],
+			[
+				"bat",
+				"batBlinks"
+			],
+			[
+				"scale",
+				"scaleTo"
+			],
+			[
+				"new",
+				"newStarTween"
+			],
+			[
+				"bg",
+				"bgTween"
+			],
+			[
+				"add",
+				"addMultiple"
+			],
+			[
+				"anch",
+				"anchor"
+			],
+			[
+				"set",
+				"settings"
+			],
+			[
+				"ancho",
+				"anchor"
+			],
+			[
+				"result",
+				"result_sprite"
+			],
+			[
+				"bgHe",
+				"bgHeading2Right"
+			],
+			[
+				"bgHea",
+				"bgHeading2Left"
+			],
+			[
+				"head",
+				"heading2"
+			],
+			[
+				"cir",
+				"meCircle"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"ques",
+				"questionScore"
+			],
+			[
+				"que",
+				"questionScore"
+			],
+			[
+				"fre",
+				"freezeFrames"
+			],
+			[
+				"input",
+				"inputEnabled"
+			],
+			[
+				"hint",
+				"hintUsed"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"remove",
+				"removeAll"
+			],
+			[
+				"wor",
+				"wordWrap"
+			],
+			[
+				"defaul",
+				"defaultFont"
+			],
+			[
+				"_cost",
+				"_costGroup"
+			],
+			[
+				"_cos",
+				"_costGroup"
+			],
+			[
+				"update",
+				"updateCrop"
+			],
+			[
+				"_bg",
+				"_bgCropRect"
+			],
+			[
+				"start",
+				"startRound"
+			],
+			[
+				"_num",
+				"_numberTween"
+			],
+			[
+				"show",
+				"showQustion"
+			],
+			[
+				"time",
+				"timeoutAlert"
+			],
+			[
+				"Time",
+				"TimeoutAlert"
+			],
+			[
+				"timeout",
+				"timeoutAlert"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"whi",
+				"whiteFilter"
+			],
+			[
+				"_answer",
+				"_answerGroup"
+			],
+			[
+				"_ques",
+				"_questionGroup"
+			],
+			[
+				"backgo",
+				"background"
+			],
+			[
+				"fade",
+				"fadeinout-2"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/tradehero/Projects/TH_web/src/index.html",
+			"settings":
+			{
+				"buffer_size": 32492,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tradehero/Projects/TH_web/src/blog-full.html",
+			"settings":
+			{
+				"buffer_size": 13118,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tradehero/Projects/TH_web/src/blog.html",
+			"settings":
+			{
+				"buffer_size": 10157,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tradehero/Projects/TH_web/src/css/screen.css",
+			"settings":
+			{
+				"buffer_size": 113210,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/tradehero/Projects/TH_web/src/career.html",
+			"settings":
+			{
+				"buffer_size": 12136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tradehero/Projects/TH_web/src/contact.html",
+			"settings":
+			{
+				"buffer_size": 7411,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tradehero/Projects/TH_web/src/about.html",
+			"settings":
+			{
+				"buffer_size": 12122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tradehero/Projects/TH_web/src/js/global.js",
+			"settings":
+			{
+				"buffer_size": 10239,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 227.0,
+		"last_filter": "cssl",
+		"selected_items":
+		[
+			[
+				"cssl",
+				"CSSLint: Run CSSLint"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fix",
+				"Autoprefix CSS"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ssph",
+				"Set Syntax: PHP"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"SSJ",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"h",
+				"HTMLBeautify"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"ssc",
+				"Set Syntax: C#"
+			],
+			[
+				"pro",
+				"Project: Close"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tradehero/Projects/TH_web/src",
+		"/Users/tradehero/Projects/TH_web/src/js",
+		"/Users/tradehero/Projects/TH_web/src/videos",
+		"/Users/tradehero/Projects/TH_web/bower_components",
+		"/Users/tradehero/Projects/TH_web/bower_components/jquery-ui",
+		"/Users/tradehero/Projects/TH_web/bower_components/jquery-ui/ui"
+	],
+	"file_history":
+	[
+		"/Users/tradehero/Projects/TH_web/src/js/beetle.js",
+		"/Users/tradehero/Projects/TH_web/src/css/vendors/layers-responsive.min.css",
+		"/Users/tradehero/Projects/TH_web/src/heroes.html",
+		"/Users/tradehero/Projects/TH_web/src/about.html",
+		"/Users/tradehero/Projects/TH_web/src/blog.html",
+		"/Users/tradehero/Projects/TH_web/Gruntfile.js",
+		"/Users/tradehero/Projects/TH_web/src/css/screen.css",
+		"/Users/tradehero/Projects/TH_web/src/index.html",
+		"/Users/tradehero/Projects/TH_web/src/career.html",
+		"/Users/tradehero/Projects/TH_web/src/team.html",
+		"/Users/tradehero/Projects/TH_web/src/js/global.js",
+		"/Users/tradehero/Projects/TH_web/src/css/vendors/layers.min.css",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/home-01.html",
+		"/Users/tradehero/Projects/TH_web/bower.json",
+		"/Users/tradehero/Projects/TH_web/src/blog-full.html",
+		"/Users/tradehero/Projects/TH_web/src/contact.html",
+		"/Users/tradehero/Projects/TH_web/package.json",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/contact.html",
+		"/Users/tradehero/Projects/TH_web/src/js/plugins.js",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero/archive.php",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/home-03.html",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/th2014/navhero.php",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/blog-with-sidebar.html",
+		"/Users/tradehero/Projects/TH_web/src/js/components/fullpage.js",
+		"/Users/tradehero/Projects/TH_web/src/js/components/rangeSlider.js",
+		"/Users/tradehero/Projects/TH_web/src/js/components/carousel.js",
+		"/Users/tradehero/Projects/TH_web/src/js/components/phoneScreen.js",
+		"/Users/tradehero/Projects/TH_web/src/js/components/toggle.js",
+		"/Users/tradehero/Projects/TH_web/src/css/font-awesome.min.css",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/page-blog.php",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/header.php",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/footer-widget.php",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/index.html",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/index.php",
+		"/Users/tradehero/Projects/TH_web/src/blog-with-sidebar.html",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/css/icons.svg.min.css",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/footer.php",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/th2014/header.php",
+		"/Users/tradehero/Projects/TH_web/src/css/screen.min.css",
+		"/Users/tradehero/Projects/TH_web/src/js/global.min.js",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/index.html",
+		"/Users/tradehero/Projects/TH_web/bower_components/magnific-popup/Gruntfile.js",
+		"/Users/tradehero/Projects/TH_web/src/app.html",
+		"/Users/tradehero/Projects/TH_web/src/index2.html",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/blog-list-sidebar.html",
+		"/Users/tradehero/Projects/TH_web/src/fonts/FontAwesome.otf",
+		"/Users/tradehero/Projects/TH_web/src/css/icons.png.css",
+		"/Users/tradehero/Projects/TH_web/src/css/icons.svg.css",
+		"/Users/tradehero/Projects/TH_web/src bak/index.html",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2014/footer.php",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/th2014/single.php",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/works-3-columns.html",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/works-3-columns-alternative.html",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/single.php",
+		"/Users/tradehero/Projects/TH_web/bower_components/magnific-popup/dist/magnific-popup.css",
+		"/Users/tradehero/Projects/TH_web/bower_components/fullpage/jquery.fullPage.css",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/functions.php",
+		"/Users/tradehero/Projects/TH_web/wordpress/index.php",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/style.css",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/th2014/style.css",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/404.php",
+		"/Users/tradehero/Projects/TH_web/dest/index.html",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/blog.html",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-includes/plugin.php",
+		"/Users/tradehero/Projects/TH_web/src/screen.css",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2015/css/screen.min.css",
+		"/Users/tradehero/Projects/TH_web/dest/css/screen.min.css",
+		"/Users/tradehero/Projects/TH_web/src/css/layers.min.css",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2014/header.php",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/TradeHero-2014/index.php",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-config.php",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/style.css",
+		"/Users/tradehero/Projects/TH_web/src/css/jquery.fullPage.css",
+		"/Users/tradehero/Projects/TH_web/src/css/layers-responsive.min.css",
+		"/Users/tradehero/Projects/TH_web/.jshintrc",
+		"/Users/tradehero/Projects/TH_web/wordpress/wp-config",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/blog-4-columns-masonry.html",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/single-blog-post-sidebar.html",
+		"/Users/tradehero/Projects/TH_web/TEMPLATES/single-blog-post.html",
+		"/Users/tradehero/Projects/TH_web/src/css/icons.fallback.css",
+		"/Users/tradehero/Projects/TH_web/src/img/icons/icons.fallback.css",
+		"/Users/tradehero/Downloads/Unknown/icons.fallback.css",
+		"/Users/tradehero/Projects/TH_web/src/css/icon.svg.css",
+		"/Users/tradehero/Projects/TH_web/src/css/icon.png.css",
+		"/Users/tradehero/Downloads/Unknown/icons.data.png.css",
+		"/Users/tradehero/Downloads/Unknown/icons.data.svg.css",
+		"/Users/tradehero/Projects/TH_web/bower_components/jquery/dist/jquery.min.js",
+		"/Users/tradehero/Projects/TH_web/bower_components/fullpage/bower.json",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/Game.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/App_Start/BundleConfig.cs",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/PreLoader.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Content/common.css",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Content/popquiz-fonts.css",
+		"/Users/tradehero/Downloads/webfontkit-20150608-031417/.htaccess",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Views/Web.config",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/jquery-1.10.2.min.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Areas/HelpPage/Views/Web.config",
+		"/Users/tradehero/Downloads/webfontkit-20150608-031417/specimen_files/.htaccess",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/mg1-home.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/Boot.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/Result.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/PreGame.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Views/PopQuizWeb/Home.cshtml",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Content/popquiz-icons.css",
+		"/Users/tradehero/Downloads/webfontkit-20150603-040829/stylesheet.css",
+		"/Users/tradehero/Downloads/webfontkit-20150603-040750/stylesheet.css",
+		"/Users/tradehero/Downloads/webfontkit-20150603-040340/stylesheet.css",
+		"/Users/tradehero/Downloads/webfontkit-20150603-040340/manifoldcf-demibold-demo.html",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Views/PopQuizWeb/Profile.cshtml",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Views/PopQuizWeb/Friends.cshtml",
+		"/Users/tradehero/Desktop/popquiz-icons-png/tool-tomato.json",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/EndGame.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/Result_bak.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/VerticalScoreBar.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/LabelButton.js",
+		"/Users/tradehero/Desktop/bats.json",
+		"/Users/tradehero/Desktop/result-sprite.json",
+		"/Users/tradehero/Desktop/btn-yellow.json",
+		"/Users/tradehero/Desktop/result-sprite",
+		"/Users/tradehero/Desktop/popquiz-result/result-sprite",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/Game_bak.js",
+		"/Users/tradehero/Desktop/popquiz-icons-png/tool-trash.json",
+		"/Users/tradehero/Desktop/popquiz-icons-png/tool-tomato",
+		"/Users/tradehero/Desktop/popquiz-icons-png/tool-inverse.json",
+		"/Users/tradehero/Desktop/popquiz-icons-png/tool-answer",
+		"/Users/tradehero/Desktop/popquiz-icons-png/tools.json",
+		"/Users/tradehero/Downloads/grunticon/grunticon.loader.js",
+		"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb/Game_new.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/tradehero/Projects/TH_web/wordpress/wp-content/themes/th2014",
+			"/Users/tradehero/Projects/TH_web/src/css",
+			"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas",
+			"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb",
+			"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Views/PopQuizWeb",
+			"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb",
+			"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Views/PopQuizWeb",
+			"/Users/tradehero/Projects/GIT/TH_SVR/THFBCanvas/Scripts/PopQuizWeb"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"canvas.width",
+			"leaderboar",
+			"leaderboardChart",
+			"chart",
+			"two",
+			"ten",
+			"last",
+			"two",
+			"ten",
+			"80px",
+			"medium",
+			" medium-last",
+			" medium-four",
+			"medium",
+			"220px",
+			"389px",
+			"video-slider",
+			"389px",
+			"magazine-style",
+			"tabs",
+			"toggle",
+			"tiny-last",
+			" tiny-two",
+			"section",
+			"none",
+			".video-slider",
+			"video-slider",
+			".section.academy",
+			"desktop-",
+			"small-last",
+			"small-six",
+			"small",
+			"column four",
+			".section ",
+			"section ",
+			"section",
+			"secition",
+			".nav",
+			"#language-options",
+			"15px",
+			"relative !",
+			"section {",
+			"section ",
+			"section",
+			".mobile",
+			"row-content",
+			"48em",
+			"menuToggle",
+			"menu-toggle",
+			"menu-togl",
+			".nav",
+			"menu-toggle",
+			"menu-toggel",
+			"content.css",
+			"content",
+			"content.css",
+			"content",
+			"header",
+			"fixed-header",
+			"content.css",
+			"content",
+			"paddingTop",
+			"content",
+			"margin",
+			"main",
+			"h3",
+			"main",
+			"body",
+			"two",
+			"map",
+			"footer",
+			"leaderboard-chart",
+			"get-more",
+			"icon-arrow-scroll-down",
+			"section {",
+			"section",
+			"@media",
+			"'",
+			"@media",
+			"column two",
+			"column three ",
+			"column three",
+			"medium",
+			"max-width",
+			".button",
+			"button",
+			"section-summary",
+			"section-heading",
+			"youtube-video-caption",
+			"margin-top",
+			" red",
+			"red",
+			"small-icon",
+			"<a class=\"small-icon red\"",
+			"<div class=\"small-icon red\">",
+			" class=\"text-xs\"",
+			"text-xs",
+			": ",
+			"red",
+			"<a href=\"#event",
+			"<a href=\"#",
+			"<a href=",
+			"<a",
+			"li>",
+			"li",
+			"section-summary",
+			"youtube.com",
+			"youtube",
+			"get-more",
+			"phone-container",
+			"$this.width()",
+			"angleTopPoint",
+			"rOutter",
+			"rInner",
+			"1",
+			"rInner",
+			"d / 2",
+			"d / 2,",
+			"ui",
+			"icon-",
+			"input",
+			"$( '.range-slider' )",
+			"ul ",
+			"footer",
+			"border-box",
+			"facebook",
+			".button",
+			"widget"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/tradehero/Projects/TH_web/src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13813,
+								13580
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4024.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/tradehero/Projects/TH_web/src/blog-full.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2429,
+								2429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 854.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/tradehero/Projects/TH_web/src/blog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4247,
+								4247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1764.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/tradehero/Projects/TH_web/src/css/screen.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84634,
+								84634
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 86238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/tradehero/Projects/TH_web/src/career.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3926,
+								3926
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1564.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/tradehero/Projects/TH_web/src/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2424,
+								2424
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 575.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/tradehero/Projects/TH_web/src/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2428,
+								2428
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 344.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/tradehero/Projects/TH_web/src/js/global.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2583,
+								2583
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1177.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "/Users/tradehero/Projects/TH_web/wordpress.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"be",
+				"src/js/beetle.js"
+			],
+			[
+				"bee",
+				"src/js/beetle.js"
+			],
+			[
+				"ca",
+				"src/career.html"
+			],
+			[
+				"lay",
+				"src/css/vendors/layers-responsive.min.css"
+			],
+			[
+				"respon",
+				"src/css/vendors/layers-responsive.min.css"
+			],
+			[
+				"ab",
+				"src/about.html"
+			],
+			[
+				"scre",
+				"src/css/screen.css"
+			],
+			[
+				"index",
+				"src/index.html"
+			],
+			[
+				"abou",
+				"src/about.html"
+			],
+			[
+				"glo",
+				"src/js/global.js"
+			],
+			[
+				"conta",
+				"src/contact.html"
+			],
+			[
+				"te",
+				"src/team.html"
+			],
+			[
+				"blog",
+				"src/blog.html"
+			],
+			[
+				"layer",
+				"src/css/vendors/layers.min.css"
+			],
+			[
+				"responsi",
+				"src/css/vendors/layers-responsive.min.css"
+			],
+			[
+				"g",
+				"src/js/global.js"
+			],
+			[
+				"screen",
+				"src/css/screen.css"
+			],
+			[
+				"contact",
+				"src/contact.html"
+			],
+			[
+				"blog-full",
+				"src/blog-full.html"
+			],
+			[
+				"team",
+				"src/team.html"
+			],
+			[
+				"tea",
+				"src/team.html"
+			],
+			[
+				"car",
+				"src/career.html"
+			],
+			[
+				"about",
+				"src/about.html"
+			],
+			[
+				"global",
+				"src/js/global.js"
+			],
+			[
+				"cont",
+				"src/contact.html"
+			],
+			[
+				"con",
+				"src/contact.html"
+			],
+			[
+				"scr",
+				"src/css/screen.css"
+			],
+			[
+				"plugin",
+				"src/js/plugins.js"
+			],
+			[
+				"fontawo",
+				"src/css/font-awesome.min.css"
+			],
+			[
+				"bet",
+				"src/js/beetle.js"
+			],
+			[
+				"index.html",
+				"src/index.html"
+			],
+			[
+				"header.php",
+				"TradeHero-2015/header.php"
+			],
+			[
+				"header",
+				"TradeHero-2015/header.php"
+			],
+			[
+				"blog-with",
+				"TradeHero-2015/blog-with-sidebar.html"
+			],
+			[
+				"sc",
+				"src/css/screen.css"
+			],
+			[
+				"hero",
+				"src/heroes.html"
+			],
+			[
+				"scree",
+				"src/css/screen.min.css"
+			],
+			[
+				"grunt",
+				"bower_components/magnific-popup/Gruntfile.js"
+			],
+			[
+				"home",
+				"TEMPLATES/home-03.html"
+			],
+			[
+				"font-awesom",
+				"src/css/font-awesome.min.css"
+			],
+			[
+				"fa",
+				"src/fonts/FontAwesome.otf"
+			],
+			[
+				"icon",
+				"src/css/icons.png.css"
+			],
+			[
+				"app",
+				"src/app.html"
+			],
+			[
+				"app.",
+				"src/app.html"
+			],
+			[
+				"gloabl",
+				"src/js/global.js"
+			],
+			[
+				"packa",
+				"~/Projects/TH_web/package.json"
+			],
+			[
+				"icons.svg",
+				"src/css/icons.svg.css"
+			],
+			[
+				"style",
+				"wordpress/wp-content/themes/th2014/style.css"
+			],
+			[
+				"blo",
+				"src/blog.html"
+			],
+			[
+				"plugins",
+				"src/js/plugins.js"
+			],
+			[
+				"beet",
+				"src/js/beetle.js"
+			],
+			[
+				"global.",
+				"src/js/global.js"
+			],
+			[
+				"gruntfil",
+				"~/Projects/TH_web/Gruntfile.js"
+			],
+			[
+				"blog-",
+				"src/blog-full.html"
+			],
+			[
+				"blog-fu",
+				"src/blog-full.html"
+			],
+			[
+				"fontawesome.c",
+				"src/css/font-awesome.min.css"
+			],
+			[
+				"icons.",
+				"src/css/icons.png.css"
+			],
+			[
+				"icons",
+				"src/css/icons.png.css"
+			],
+			[
+				"bower",
+				"bower_components/fullpage/bower.json"
+			],
+			[
+				"comm",
+				"Content/common.css"
+			],
+			[
+				"bundle",
+				"App_Start/BundleConfig.cs"
+			],
+			[
+				"gam",
+				"Scripts/PopQuizWeb/Game.js"
+			],
+			[
+				"result",
+				"Scripts/PopQuizWeb/Result.js"
+			],
+			[
+				"boot",
+				"Scripts/PopQuizWeb/Boot.js"
+			],
+			[
+				"pre",
+				"Scripts/PopQuizWeb/PreGame.js"
+			],
+			[
+				"fonts",
+				"Content/popquiz-fonts.css"
+			],
+			[
+				"pop",
+				"Content/popquiz-fonts.css"
+			],
+			[
+				"bun",
+				"App_Start/BundleConfig.cs"
+			],
+			[
+				"boot.",
+				"Scripts/PopQuizWeb/Boot.js"
+			],
+			[
+				"game",
+				"Scripts/PopQuizWeb/Game.js"
+			],
+			[
+				"fri",
+				"Views/PopQuizWeb/Friends.cshtml"
+			],
+			[
+				"profile",
+				"Views/PopQuizWeb/Profile.cshtml"
+			],
+			[
+				"ho",
+				"Views/PopQuizWeb/Home.cshtml"
+			],
+			[
+				"preload",
+				"Scripts/PopQuizWeb/PreLoader.js"
+			],
+			[
+				"pregame",
+				"Scripts/PopQuizWeb/PreGame.js"
+			],
+			[
+				"end",
+				"Scripts/PopQuizWeb/EndGame.js"
+			],
+			[
+				"ver",
+				"Scripts/PopQuizWeb/VerticalScoreBar.js"
+			],
+			[
+				"verti",
+				"Scripts/PopQuizWeb/VerticalScoreBar.js"
+			],
+			[
+				"regame",
+				"Scripts/PopQuizWeb/PreGame.js"
+			],
+			[
+				"common",
+				"Content/common.css"
+			],
+			[
+				"result_ba",
+				"Scripts/PopQuizWeb/Result_bak.js"
+			],
+			[
+				"pregam",
+				"Scripts/PopQuizWeb/PreGame.js"
+			],
+			[
+				"boo",
+				"Scripts/PopQuizWeb/Boot.js"
+			],
+			[
+				"label",
+				"Scripts/PopQuizWeb/LabelButton.js"
+			],
+			[
+				"preg",
+				"Scripts/PopQuizWeb/PreGame.js"
+			],
+			[
+				"loa",
+				"Scripts/PopQuizWeb/PreLoader.js"
+			],
+			[
+				"game_ba",
+				"Scripts/PopQuizWeb/Game_bak.js"
+			],
+			[
+				"game_n",
+				"Scripts/PopQuizWeb/Game_new.js"
+			],
+			[
+				"popquiz",
+				"Content/popquiz-characters.css"
+			],
+			[
+				"cha",
+				"Content/popquiz-charactors.css"
+			],
+			[
+				"chara",
+				"Content/popquiz-charactors.css"
+			],
+			[
+				"charactor",
+				"Content/popquiz-charactors.css"
+			],
+			[
+				"popqui",
+				"Content/popquiz-icons.css"
+			],
+			[
+				"popquiz-",
+				"Content/popquiz-icons.css"
+			],
+			[
+				"bund",
+				"App_Start/BundleConfig.cs"
+			],
+			[
+				"lable",
+				"Scripts/PopQuizWeb/LabelButton.js"
+			],
+			[
+				"main",
+				"Views/PopQuizWeb/Main.cshtml"
+			],
+			[
+				"in",
+				"Views/FacebookCanvas/Index.cshtml"
+			],
+			[
+				"game.js",
+				"Scripts/PopQuizWeb/Game.js"
+			],
+			[
+				"bundl",
+				"App_Start/BundleConfig.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/test/phaser_tutorial_02/tutorial.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 98.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

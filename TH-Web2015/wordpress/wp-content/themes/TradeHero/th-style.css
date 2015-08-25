@@ -1,0 +1,490 @@
+/******************************************************************
+Theme Name: TradeHero
+Theme URI: http://tradehero.mobi
+Description: TradeHero's very own WordPress theme!
+Author: Albert Camacho
+Author URI: http://tradehero.mobi
+Version: 0.9
+Tags: 
+******************************************************************/
+.alpha25 {
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(255, 255, 255);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(255, 255, 255, 0.25);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+.IEalpha25{background: transparent;}
+
+/*SENSOR TOWER*/
+#sensor-tower-app-widget iframe, #sensor-tower-app-widget > div{margin: 0px auto;}
+
+/* Space out content a bit 
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}*/
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.jum-maincontainer{
+  background-color: #ffffff;
+  padding-top: 1px
+}
+.jcontainer a, .jcontainer a:visited{
+  color:#6a7181;
+}
+.jcontainer {
+    margin-top: 5px;
+}
+.jcontainer .jumbotron {
+padding: 25px;
+background-color: #f7f7f7;
+}
+.jcontainer .jp-icon{
+  width: 18%;
+  min-width: 42px;  
+  display: inline-block;
+  text-align: center;
+}
+#jp-tq-icon{
+  width: 25%;
+  height: auto;
+}
+.jcontainer .jp-icon img{
+  width: 100%;
+  height: auto;
+}
+.jcontainer .jp-date{
+  width: 100%;
+  display: block;
+}
+.jcontainer .jp-title{
+  width: 65%;
+  display: inline-block;  
+  text-align: center;
+}
+
+/* Custom page header */
+.jcontainer .header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.jcontainer.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+.jcontainer .jumbotron h2 {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  font-family: "bree serif", serif;
+  text-shadow: #A22B2B 0.05em 0.05em;
+  color: #ce5b5b;
+  line-height: 1em;
+  font-size: 1.9em;
+}
+.jcontainer .jumbotron h4 {
+  margin: 5px 0px;
+  font-size: 1em;
+}
+.jcontainer .jumbotron p {
+  font-size: 0.75em;
+}
+
+/* Custom page footer */
+.jcontainer.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .jcontainer {
+    max-width: 730px;
+    margin-top: 30px
+  }
+}
+.jcontainer.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+  color: #ffffff;
+}
+.jum-img img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.jcontainer .panel-heading{
+  padding: 5px 15px;
+}
+.jcontainer .panel-body {
+font-size: 0.75em;
+line-height: 1.5em;
+}
+#accordion2 {
+  margin: 0px 0px 20px 0px;}
+#accordion2 .jp-title{
+  width: 100%; }
+#accordion2 h4{
+  font-size: 0.9em;
+  margin: 0px; }
+
+
+/* Supporting marketing content */
+.jcontainer .marketing p + h4 {
+  margin-top: 28px;
+}
+.jcontainer .myButton {
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+  background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+  background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+  background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+  background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+  background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+  background-color:#f9f9f9;
+    display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  padding: 5px 5px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  width: 100%;
+}
+.jcontainer .myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+  background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+  background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+  background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+  background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+  background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+  background-color:#e9e9e9;
+}
+.jcontainer .myButton:active {
+  position:relative;
+  top:1px;
+}
+.jcontainer .jp-active {
+  width: 50%;
+  padding: 5px 0px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 0.7em;
+  background-color: #ef4b45;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.jcontainer .jp-complete{
+  background-color: #39b54a; }
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .jcontainer.header,
+  .jcontainer.marketing,
+  .jcontainer.footer {
+    padding-left: 0;
+    padding-right: 0; }
+  /* Space out the masthead */
+  .jcontainer.header {
+    margin-bottom: 30px;   }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;  }
+  .jcontainer .jumbotron h2{
+    font-size: 3em;}
+  .jcontainer .jumbotron h3{
+    font-weight: 700;}
+  .jcontainer .panel-group h4{
+    font-size: 1.1em}
+  .jcontainer .jumbotron p {
+    font-size: 1em;
+    line-height: 1.4em; }
+  .jcontainer .myButton {
+    padding: 5px 15px; }
+  .jcontainer h4{
+    margin: 5px 0px;  }
+  .jcontainer .panel-body {
+    font-size: 1em; }
+  .jcontainer .jp-date {
+    width: 15%;
+    display: inline-block;}
+  .jcontainer .jp-title {
+    width: 50%; }
+  .jcontainer .jp-active{
+    width: 15%; }
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel-caption a {
+  color: #ffffff;}
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+
+/* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  margin-top: -80px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 660px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+#topbanner1, #topbanner2, #topbanner3 {
+  width: 100%;
+  height: 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#topbanner1 {
+  background-image: url('http://blog.tradehero.mobi/wp-content/uploads/banner-bg4.jpg');
+}
+
+#topbanner2 {
+  background-image: url('http://blog.tradehero.mobi/wp-content/uploads/bg2.png');
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* Sets viewing for desktop only */
+.desktop-view{
+    display: none;
+  }
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  /*For elements not within the Bootstrap CSS */
+  /* Use this to edit float image instead */
+  .carousel-caption .three3{
+    width: 30%;
+    float: right;
+  }
+  .carousel-caption .seven7{
+    width: 65%;
+    float: left;
+  }
+  
+  .desktop-view{
+    display: inherit;!important;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+/* MailChimp Widget */
+.widget_ns_mailchimp{
+}
+
+.widget .emailLabel{
+ display: none;  
+}
+
+/*Removing the smiley face at the bottom of page*/
+#wpstats {
+display: none!important;
+}
+
+.widgets-list-layout .widgets-list-layout-blavatar {
+  max-width: 120px !important;
+  width: 30% !important;
+  padding: 5px;
+  border: 1px solid #cbcbcb;
+  background-color: #fff;
+}
+
+.widgets-list-layout .widgets-list-layout-links {
+float: right;
+width: 70% !important;
+padding: 10px;
+font-weight: 600;
+line-height: 140%;
+}
+
+#ns_widget_mailchimp-2 > h4 {
+font-family: bree serif;
+font-size: 1.4em;
+}
+
+#ns_widget_mailchimp-email-2 {
+border-radius: 0!important;
+box-shadow: none!important;
+font-size: 12px;
+height: 36px;
+/* margin-right: 5px; */
+}
+.widget_ns_mailchimp{
+  background-color: #f8f8f8;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+#ns_widget_mailchimp_form-2 > input.button {
+color: #333333;
+background-color: #ebebeb;
+border-color: #adadad;
+border-radius: 0!important;
+box-shadow: none!important;
+font-size: 12px;
+height: 36px;
+margin-right: 5px;
+background-image: none;
+}
+
+/* For the blog's sidebar image */
+.jetpack-image-container img {
+width: 100%;
+height: auto;
+}
+
+#sb-download {width: 100%; text-align: center; }
+#sb-download .dl-button {width: 40%; margin: auto; text-align: center;display: inline-block;}
+.dl-button img {max-height: 40px;}
+
+/********************
+TAG TEMPLATES
+Tag Template: PMWC
+********************/
+#tag-pmwc {
+background: #f4f4f4 url('http://www.tradehero.mobi/WebClient/competitionPages/img/Philip-Macquarie/phillip_bg.jpg') no-repeat;
+background-size: cover;
+background-position-y: -400px;
+background-attachment: fixed;
+width: 100%;
+height: 300px;
+display: block;
+}
+.tag-wrap{height: 100%;}
+.pmwc-title {
+margin: 0 auto;
+color: #ffffff;
+font-size:2em;
+text-align: center;
+position: relative;
+top: 40%;
+}
+@media screen and (max-width: 1280px){
+#tag-pmwc{
+  background-position-y: -100px;}
+}
+@media screen and (max-width: 480px){
+#tag-pmwc{
+  background-position-y: 0px;
+  height: 150px;}
+.pmwc-title {
+  font-size: 1.2em}  
+}
+.wc-shortcodes-countdown .countdown_expired_message{font-size: 100%}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="gt-ie8"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="The Page Description">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<style type="text/css">@-ms-viewport{width: device-width;}</style>
+	<title>TradeHero</title>
+
+	<link rel="stylesheet" href="css/screen.min.css" media="screen">
+	<!-- GruntIcon -->
+	<script src="js/grunticon.loader.min.js"></script>
+	<script>grunticon(["css/icons.svg.min.css", "css/icons.png.min.css", "css/icons.fallback.min.css"]);</script>
+	<noscript><link href="icons.fallback.min.css" rel="stylesheet"></noscript>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicon -->
+	<link rel="icon" href="favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">		
+</head>
+
+<body class="page">
+
+	<header role="banner" class="light">
+		<div class="row">
+			<div class="nav-inner row-content buffer-left buffer-right even clear-after">
+				<div id="brand">
+					<h1 class="reset"><a href="index.html" title="TradeHero" class="icon icon-logo"></a></h1>
+				</div><!-- brand -->
+				<div class="breadcrumb language-options mobile-hide">
+					<ul>
+						<li class="active">International</li>
+						<li><a href="#">中国</a></li>
+					</ul>
+				</div>
+				<nav class="nav keep-right">
+					<a id="menu-toggle" href="#"><i class="fa fa-bars fa-lg"></i></a>
+					<ul id="menu" class="reset" role="navigation">
+						<li data-menuanchor="download" class="menu-item">
+							<a href="index.html">Intro</a>
+						</li>
+						<li data-menuanchor="why" class="menu-item">
+							<a href="index.html#why">Why Play</a>
+						</li>
+						<!-- <li data-menuanchor="compete">
+							<a href="index.html#compete">Compete</a>
+						</li> -->
+						<li data-menuanchor="academy" class="menu-item">
+							<a href="index.html#academy">Academy</a>
+						</li>
+						<li data-menuanchor="heroes" class="menu-item">
+							<a href="index.html#heroes">Heroes</a>
+						</li>
+						<li class="menu-item">
+							<a href="blog.html">Blog</a>
+						</li>
+					</ul>
+					<ul class="row desktop-hide breadcrumb language-options">
+						<li class="active"><span>International</span></li>
+						<li><a href="#">中国</a></li>
+					</ul>
+				</nav>
+			</div>	
+		</div>
+	</header>
+
+	<main role="main">
+		<div id="intro-wrap" class="stretch fixedheight">
+			<div id="intro" class="preload" data-autoplay="5000" data-navigation="true" data-pagination="true" data-transition="fade">
+				<div class="intro-item" style="background-image: url(img/tmp/team/singapore.jpg);">
+					<div class="photocaption">
+						<h4>Singapore Team</h4>
+					</div><!-- photocaption -->
+				</div>
+				<div class="intro-item" style="background-image: url(img/tmp/team/china.jpg);">
+					<div class="photocaption">
+						<h4>Shanghai Team</h4>
+					</div><!-- photocaption -->
+				</div>			
+			</div><!-- intro -->				
+		</div><!-- intro-wrap -->
+
+		<div id="main" class="row blog list-style">
+			<div class="row-content buffer">
+				<div id="myCanvasContainer">
+					<canvas width="300" height="300" id="myCanvas"></canvas>
+				</div>
+				<div id="tags">
+					<ul>
+						<li><a href="http://www.google.com" target="_blank">Google</a></li>
+						<li><a href="/fish">Fish</a></li>
+						<li><a href="/chips">Chips</a></li>
+						<li><a href="/salt">Salt</a></li>
+						<li><a href="/vinegar">Vinegar</a></li>
+					</ul>
+				</div>
+				
+				<h1>About TradeHero</h1>
+				<p>Our vision at TradeHero is to democratise the world of investing through disruptive knowledge sharing. We believe everyone can learn to invest when you combine the power of crowdsourced intelligence with a fun, intuitive, and non-threatening platform. That’s why we’ve developed a gamified virtual investment network using real world data that makes it easy to learn by doing, share real time insights, and compete to win real cash, making it that much more fun to learn!</p>
+				<p>We’re a sandbox grooming the capital markets investors of tomorrow, while triggering ideas for the investors of today.</p>
+				<h2>Our Team</h2>
+				<p>TradeHero is built by former wall street trading platform geeks, mobile gaming gurus from Electronic Arts, and seasoned startup athletes.</p>
+				<div class="row members">
+					<div class="column medium-two small-four">
+						<figure class="about-us">
+							<div class="member-avatar">
+								<img src="img/tmp/team/Dinesh.jpg" alt="">
+								<div class="meta-social">
+									<ul class="inline">
+										<li><a href="http://www.linkedin.com/in/dineshbhatia" class="linkedin-share border-box"><i class="fa fa-linkedin fa-lg"> </i></a></li>
+									</ul>
+								</div>
+							</div>
+							<figcaption>
+								<h4 class="member-name">Dinesh Bhatia</h4>
+								<h5 class="member-position">CEO and Co-founder</h5>
+								<p class="member-summary">Seasoned entrepreneur and ex-Entrepreneur-In-Residence &amp; Venture Partner with Vickers Venture Capital.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="column medium-two small-four">
+						<figure class="about-us">
+							<div class="member-avatar">
+								<img src="img/tmp/team/bio-dom.jpg" alt="">
+								<div class="meta-social">
+									<ul class="inline">
+										<li><a href="http://sg.linkedin.com/in/dam99" class="linkedin-share border-box"><i class="fa fa-linkedin fa-lg"> </i></a></li>
+									</ul>
+								</div>
+							</div>
+							<figcaption>
+								<h4 class="member-name">Dominic Morris</h4>
+								<h5 class="member-position">CTO and Co-founder</h5>
+								<p class="member-summary">Ex-Microsoft Consulting and Standard Chartered/Citibank responsible for global equities technology deployment strategy.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="column medium-two small-four small-last">
+						<figure class="about-us">
+							<div class="member-avatar">
+								<img src="img/tmp/team/Jeff.jpg" alt="">
+								<div class="meta-social">
+									<ul class="inline">
+										<li><a href="http://cn.linkedin.com/in/jefftang75/" class="linkedin-share border-box"><i class="fa fa-linkedin fa-lg"> </i></a></li>
+									</ul>
+								</div>
+							</div>
+							<figcaption>
+								<h4 class="member-name">Jeff Tang</h4>
+								<h5 class="member-position"> President-China &amp; SVP-Global</h5>
+								<p class="member-summary">Ex-China Head of netMobile AG &amp; WAZAP, extensive mobile APP/games background.</p>
+							</figcaption>
+						</figure>
+					</div>							
+					<div class="column medium-two small-four">
+						<figure class="about-us">
+							<div class="member-avatar">
+								<img src="img/tmp/team/alvin.jpg" alt="">
+							</div>
+							<figcaption>
+								<h4 class="member-name">Alvin Foo</h4>
+								<h5 class="member-position">VP Marketing</h5>
+								<p class="member-summary">Ex-head of Mobile for Google China, Nokia and Omnicom.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="column medium-two small-four">
+						<figure class="about-us">
+							<div class="member-avatar">
+								<img src="img/tmp/team/Constant.jpg" alt="">
+								<div class="meta-social">
+									<ul class="inline">
+										<li><a href="http://www.linkedin.com/in/constant/" class="linkedin-share border-box"><i class="fa fa-linkedin fa-lg"> </i></a></li>
+									</ul>
+								</div>
+							</div>
+							<figcaption>
+								<h4 class="member-name">Constant Tong</h4>
+								<h5 class="member-position">VP Product</h5>
+								<p class="member-summary">Ex-Electronic Arts Development Director.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="column medium-two medium-last small-four small-last">
+						<figure class="about-us">
+							<div class="member-avatar">
+								<img src="img/tmp/team/david.png" alt="">
+								<div class="meta-social">
+									<ul class="inline">
+										<li><a href="https://www.linkedin.com/in/qixin" class="linkedin-share border-box"><i class="fa fa-linkedin fa-lg"> </i></a></li>
+									</ul>
+								</div>
+							</div>
+							<figcaption>
+								<h4 class="member-name">David Qi</h4>
+								<h5 class="member-position">VP Engineering</h5>
+								<p class="member-summary">Ex-Electronic Arts Technical Director.</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<h2>Investors</h2>
+				<p>MyHero is the parent company of TradeHero and our investors are <a href="http://www.kpcb.com/china">Kleiner Perkins Caufield and Byers (KPCB China)</a> and <a href="http://www.ipvcap.com/ipv/index.htm">IPV Capital</a>.</p>
+				<p><a href="http://www.kpcb.com/china"><img src="img/tmp/logo-kpcb.png" alt=""></a><a http://www.ipvcap.com/ipv/index.htm><img src="img/tmp/logo-ipv.png" alt=""></a></p>
+				<h2>Partners</h2>
+				<p>We partner with stock exchanges, brokerages, and banks to grow the financial community, leveraging the TH platform.</p>
+				<p><a href="http://www.ayondo.com"><img src="img/tmp/partners/logo-ayondo.png" alt=""></a><a href="http://www.etoro.com/"><img src="img/tmp/partners/logo-etoro.png" alt=""></a><a href="http://www.macquarie.com"><img src="img/tmp/partners/logo-macquarie.png" alt=""></a><a href="http://www.oanda.com"><img src="img/tmp/partners/oanda.png" alt=""></a><a href="http://www.sgx.com"><img src="img/tmp/partners/logo-sgx.png" alt=""></a></p>
+				<p>We also partner with leading content developers and curators to bring you the most relevant bite sized news and insights.</p>
+				<p><a href="https://www.google.com/finance"><img src="img/tmp/partners/logo-google.png" alt=""></a><a href="https://www.repustate.com/"><img src="img/tmp/partners/logo-repustate.png" alt=""></a><a href="http://seekingalpha.com"><img src="img/tmp/partners/logo-seekingalpha.png" alt=""></a><a href="https://www.fool.com/"><img src="img/tmp/partners/logo-tmf.png" alt=""></a><a href="https://finance.yahoo.com"><img src="img/tmp/partners/logo-yahoo.png" alt=""></a></p>
+			</div><!-- row-content -->
+		</div><!-- row -->
+	</main>
+		
+	<footer class="center">
+		<ul class="inline meta-social">
+			<li>
+				<a target="_blank" href="https://www.facebook.com/TradeHero" class="facebook-share border-box">
+					<i class="fa fa-facebook fa-lg"></i>
+				</a>
+			</li>
+			<li>
+				<a target="_blank" href="https://twitter.com/tradeheromobile" class="twitter-share border-box">
+					<i class="fa fa-twitter fa-lg"></i>
+				</a>
+			</li>
+			<li>
+				<a target="_blank" href="https://www.youtube.com/user/TradeHeroMobile" class="youtube-share border-box">
+					<i class="fa fa-youtube fa-lg"></i>
+				</a>
+			</li>
+			<li>
+				<a target="_blank" href="https://instagram.com/tradehero" class="instgram-share border-box">
+					<i class="fa fa-instagram fa-lg"></i>
+				</a>
+			</li>
+			<li>
+				<a target="_blank" href="https://www.pinterest.com/tradehero/" class="pinterest-share border-box">
+					<i class="fa fa-pinterest fa-lg"></i>
+				</a>
+			</li>
+		</ul>
+		<ul class="breadcrumb footer-links">
+			<li><a href="about.html">About us</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="career.html">Career</a></li>
+		</ul>
+		<div class="copyright">
+			<p>&copy; 2012-2014 My Manisku Pte Ltd</p>
+			<p>Singapore Company Number 201003309N</p>
+		</div>
+	</footer>
+
+	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>		
+	<script src="js/jquery.min.js"></script>
+	<script src="js/plugins.min.js"></script>
+	<script src="js/beetle.min.js"></script>
+	<script src="js/global.min.js"></script>
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55d18bc40f882c1a" async="async"></script>
+	<!-- Google analytics -->
+	<script id="google-analytics">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-36246874-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- Facebook js sdk -->
+	<div id="fb-root"></div>
+	<script id="fb-sdk">(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=431745923529834";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+
+</html>

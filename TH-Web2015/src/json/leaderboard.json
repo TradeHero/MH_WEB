@@ -1,0 +1,31 @@
+{
+	"users": [{
+		"id": 1775235,
+		"displayName": "lawan170",
+		"level": 6, 
+		"countryCode": "US",
+		"followers": 1000,
+		"avatar": "http://tradehero.mobi/user_avatars/lawan170.jpg",
+		"roiInPeriod": 2.1733,
+		"winRatio": 0.1111111111,
+		"relativePerformanceInPeriod_vsSP500": 1.8744466751766455,
+		"tradeConsistencyInPeriod": 0.98,
+		"positionsInPeriod": 9,
+		"tradesInPeriod": 41,
+		"avgTradesPerMonth" : 7.9972884737747973
+	}, {
+		"id": 1775235,
+		"displayName": "lawan170",
+		"level": 6, 
+		"countryCode": "US",
+		"followers": 1000,
+		"avatar": "http://tradehero.mobi/user_avatars/lawan170.jpg",
+		"roiInPeriod": 2.1733,
+		"winRatio": 0.1111111111,
+		"relativePerformanceInPeriod_vsSP500": 1.8744466751766455,
+		"tradeConsistencyInPeriod": 0.98,
+		"positionsInPeriod": 9,
+		"tradesInPeriod": 41,
+		"avgTradesPerMonth" : 7.9972884737747973
+	}]
+}

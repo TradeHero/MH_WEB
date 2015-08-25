@@ -1,0 +1,32 @@
+.icon-crown-2 {
+   background: url('../img/icons.fallback.png') no-repeat -34px -17px;
+   width: 34px;
+   height: 31px;
+}
+.icon-logo {
+   background: url('../img/icons.fallback.png') no-repeat -0px -72px;
+   width: 72px;
+   height: 72px;
+}
+.icon-next-arrow,
+.fp-controlArrow.fp-next:after {
+   background: url('../img/icons.fallback.png') no-repeat -17px -17px;
+   width: 16px;
+   height: 54px;
+}
+.icon-prev-arrow,
+.fp-controlArrow.fp-prev:after {
+   background: url('../img/icons.fallback.png') no-repeat -0px -17px;
+   width: 16px;
+   height: 54px;
+}
+.icon-arrow-scroll-down {
+   background: url('../img/icons.fallback.png') no-repeat -0px -0px;
+   width: 72px;
+   height: 16px;
+}
+.icon-youtube-play {
+   background: url('../img/icons.fallback.png') no-repeat -34px -49px;
+   width: 26px;
+   height: 18px;
+}

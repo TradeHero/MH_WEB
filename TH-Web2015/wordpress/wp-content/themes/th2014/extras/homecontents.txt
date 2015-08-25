@@ -1,0 +1,46 @@
+[home_hero
+title='Trade better TOGETHER'
+subhead='Join thousands of users sharing investment insights, stock tips and trading strategies on TradeHero daily.'
+image1='/wp-content/themes/th2014/img/cta-appstore.png'
+image2='/wp-content/themes/th2014/img/cta-googleplay.png'
+image3='/wp-content/themes/th2014/img/features/phones.png'
+]Ranked #1 Finance App in 81 countries<br /> Ranked Top 10 Finance App in 153 countries[/home_hero]
+    
+[home_process1 image='/wp-content/themes/th2014/img/features/learn_trade_f.png' alt='process 2' title='<span class="highlight">LEARN</span> TO TRADE' subhead='Lorem ipsum dolor sit atmet sit dolor greand fdanrh sdfs sit atmet sit dolor greand fdanrh.']
+In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.[/home_process1]    
+ 
+[home_process2 image='/wp-content/themes/th2014/img/features/make_money_f.png' alt='process 3' title='MAKE<span class="highlight"> MONEY</span>' subhead='Lorem ipsum dolor sit atmet sit dolor greand fdanrh sdfs sit atmet sit dolor greand fdanrh sdfs' body2='']  
+In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+[/home_process2]
+
+[home_features title='<span class="highlight">COOL</span> FEATURES']
+
+[home_feature icon='icon-office-02' title='VIRTUAL PORTFOLIO']Start off with 100,000 virtual dollars and practice trading risk-free! [/home_feature]
+
+[home_feature icon='icon-education-science-14' title='28 EXCHANGES']Trade in the global market.  [/home_feature]
+
+[home_feature icon='icon-faces-users-04' title='FREE FOLLOWING' ]Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero.  [/home_feature]
+
+[home_feature icon='icon-badges-votes-14' title='ACHIEVEMENTS' ]Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero.  [/home_feature]
+
+[home_feature icon='icon-chat-messages-04' title='MESSAGING' ]Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero.  [/home_feature]
+
+[home_feature icon='icon-education-science-20' title='COMPETITIONS' ]Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero.  [/home_feature]
+
+[home_feature icon='icon-alerts-07' title='STOCK ALERTS' ]Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero.  [/home_feature]
+
+[home_feature icon='icon-documents-bookmarks-15' title='WATCHLISTS' ]Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero.  [/home_feature]
+[home_features_close]
+	
+[home_awards title='<span class="highlight">OUR</span> PARTNERS' ]We collaborate with banks, brokerages, stock exchanges, and other institutions<br /> to leverage our platform in reaching out to the financial community. [/home_awards]
+
+[home_award target='#' alt='SGX' image='/wp-content/themes/th2014/img/logos/award-1.png']
+[home_award target='#' alt='Macquarie' image='/wp-content/themes/th2014/img/logos/award-2.png']
+[home_award target='#' alt='eToro' image='/wp-content/themes/th2014/img/logos/award-3.png']
+[home_award target='#' alt='Phillip Capital' image='/wp-content/themes/th2014/img/logos/award-4.png']
+
+[home_awards_close]
+
+[home_feedback]
+
+

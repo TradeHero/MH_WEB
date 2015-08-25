@@ -1,0 +1,176 @@
+/*
+Theme Name: TradeHero Theme 2014
+Author: Design@TradeHero
+Author URI: http://en.tradehero.mobi
+Description: Bootstrap 3 based Wordpress Theme for TradeHero
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+/* Default Navigation Bar */
+.navigation-bar ul{ margin: 0 auto; padding: 0; list-style: none; }
+.navigation-bar-right ul { float: right; }
+.navigation-bar > ul > li { display: inline-block; }
+.navigation-bar > ul > li a { display: inline-block; padding:15px; }
+.navigation-bar > ul > li a:Hover,
+.navigation-bar > ul > li.active a { color: #fe4918; text-decoration: none; }
+.navigation-header .navigation-bar > ul > li { padding: 15px 15px; }
+.navigation-header .navigation-bar > ul > li > a { font-size: 13px; text-transform: uppercase; color: #eff3f6; border-bottom: 2px solid transparent; padding: 10px 0; line-height: 13px; opacity: 0.8; }
+.navigation-header .navigation-bar > ul > li > a:Hover { opacity: 0.9; }
+.navigation-header .navigation-bar > ul > li.active > a { color: #fff; border-bottom: 2px solid #1376fb; opacity: 0.9; }
+
+#navigation-simple.navigation-header .navigation-bar > ul > li > a { color: #1376fb; }
+
+
+/* Sticky Headers */
+.fixmenu-clone.navigation-header { background: #1376FB; z-index: 999}
+.fixmenu-clone.navigation-header .navigation-bar > ul > li> a { color: #ffffff; }
+.fixmenu-clone.navigation-header .open .navigation-bar > ul > li> a { color: #fff; }
+.fixmenu-clone.navigation-header .open .navigation-bar > .featured > a { color: #1376fb; }
+.fixmenu-clone.navigation-header .navigation-bar > ul > li> a:hover { color: #ffffff; opacity:0.8;}
+.fixmenu-clone.navigation-header .navigation-brand { background: none;}
+
+li.current-menu-item a {
+	border-top: 2px solid;
+}
+
+.hero {
+	min-height: 854px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+/* Simple Page Nav */
+.single-post .navigation li a,
+.page-template-page-blog-php .navigation li a, .page-template-page-faq-php .navigation li a{color:#1376fb;}
+.simple-page { margin-top: 90px; }
+
+.page-template-page-default-php .navigation-toggle .icon-bar,
+.page-template-page-faq-php .navigation-toggle .icon-bar,
+.page-template-page-blog-php .navigation-toggle .icon-bar {background: #1376fb;}
+
+.page-template-page-blog-php .navigation-header .navigation-bar,
+.page-template-page-blog-php .navigation-header .navigation-bar > ul > li > a,
+.page-template-page-faq-php .navigation-header .navigation-bar > ul > li > a {color: #ffffff;}
+
+/* Learning */
+#learning-top { background: url('img/background/bg-learning.jpg') no-repeat bottom left; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; min-height: 540px; position: relative; }
+#hero-inner2 .nav-tabs li{width:190px;background:transparent;}
+#hero-inner2 .nav-tabs li.active,
+#hero-inner2 .nav-tabs,
+#hero-inner2 .nav-tabs li.active a:focus,
+#hero-inner2 .nav-tabs a,
+#hero-inner2 .nav-tabs a:focus,
+#hero-inner2 .nav-tabs a:hover {border:0 none !important;border-color:transparent !important;outline:none;}
+#hero-inner2 .nav-tabs a{background-color:transparent !important;}
+#hero-inner2 .nav-tabs a{color:white;}
+
+/* Partners */
+#partners-top, #about-top { background: url('img/background/bg-partners.jpg') no-repeat bottom left; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; background-attachment: fixed; min-height: 555px; position: relative; }
+#section-partners img { margin: 8px;}
+
+/* Press */
+#press-top { background: url('img/background/bg-learning.jpg') no-repeat bottom left; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; min-height: 280px; position: relative; }
+
+
+
+/* Single and Page */
+
+.page-template-default .content-area,
+.single .content-area{
+	margin:150px 0 0 150px;
+}
+
+.page-template-default #sidebar,
+.single #sidebar{
+position:absolute;
+top:100px;
+right:20px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    
+    /* inline-block space fix */
+    margin:0 auto;
+}
+
+#blog { margin-top: 20px; min-height: 600px;}
+#blog .posts .blogbottom{border:3px solid #7f7f7f !important;}
+#blog .date{color:#7f7f7f;}
+#blog h2{font-size:32px; margin-top:0;}
+#blog .container{text-align:center;}
+#blog .post{text-align:left;}
+.blog-content p {
+	line-height: 1.9;
+}
+
+
+.footer-content{padding:20px 0 !important;}
+.navigation-footer a{color:#FFF;}
+.navigation-footer{text-align:center;}
+
+#page-about p{font-size: 18px;}
+#about-top {min-height: 360px;}
+.bio p { font-size: 14px; line-height: 21px; }
+.bio img { margin-bottom: 8px;}
+
+/**
+ * Competition Homepage
+ * SGX Competition: 24;
+ * Macquarie DW: 37;
+ * SGX 2015: 43;
+ */
+
+/* #provider-24 .hero{	background: url ('img/background/default-bg.svg') no-repeat bottom left; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; position: relative;} */
+#competition-intro { padding-bottom: 0; }
+#competition-intro .thin {font-weight: 400; font-size: 1.2em; line-height: 1.8; color: #8A8A8A;}
+#competition-intro h2 {font-size: 36px;}
+
+#provider-24 { background: url('img/background/bg-sgx-season2-2.jpg') no-repeat bottom center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; background-attachment: fixed; position: relative; }
+#provider-37 .text-heading{text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);}
+#provider-24 { background: url('img/background/bg-sgx-season2-2.jpg') no-repeat bottom center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; background-attachment: fixed; position: relative; }
+#provider-37 { background: url('img/background/bg-macquarie-dw-hero.png') no-repeat bottom center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; background-attachment: fixed; position: relative;}
+#provider-37 .text-heading{text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);}
+
+#provider-34 {background: #000000;}
+    #provider-34 .btn-default {border-color: #ABD91B; color: #ABD91B;}
+
+#provider-37 .competition-icon {padding: 10px;}
+#provider-37 .competition-icon > img {height:128px; margin: auto;}
+#provider-37 .competition-title > h1 {font-size: 42px;}
+
+#provider-43 { color: #0b236b; background: #FFFFFF url('img/background/bg-sgxStockWhiz2015.jpg') no-repeat bottom center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; position: relative; }
+#provider-43 .light, #provider-43 .text-heading p, #provider-43 .btn-default {color: #0b236b;}
+#provider-43 .btn-default {border: 1px solid #0b236b;}
+
+/* Hide stuff */
+#provider-43 .competition-button-2, #provider-43 .competition-icon, 
+#provider-34 .competition-button-2, #provider-34 .competition-icon 
+    { display: none;}
+
+@media (min-width: 768px){
+    #provider-37 .competition-icon {width: 30%; float: left;}
+    #provider-37 .competition-icon > img {height: auto;}
+    #provider-37 .competition-title {width: 70%; text-align: left; float: left;}
+    #competition-intro h2 {font-size: 47px;}
+}
+
+/* Country Selector */
+.country-selector ul { float: right; list-style-type: none; font-size: 75%; padding: 20px; opacity:0.7;}
+    .country-selector ul li { display: inline-block; padding-right: 10px; font-weight: 300;}
+    .country-selector ul li  a { color: #ffffff; }
+
+/* Blog Posts */
+#blog .post blockquote { border-left: 1px solid; font-size: 1em; text-align: left; padding-left: 20px;}
+#posts h2 {font-size: 36px;}
+
+/* Footer */
+.social {
+    margin: 16px auto;
+}

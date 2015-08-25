@@ -1,0 +1,39 @@
+[competition_top
+provider='sgx-stockwhiz'
+title='Partners'
+subhead='We collaborate with banks, brokerages, stock exchanges, and other institutions to leverage our platform in reaching out to the financial community.'
+url='#'
+button='bizdev@tradehero.mobi'
+]
+
+[competition_intro
+title='How to play'
+subhead='This will be the text'
+]
+
+[learning_features
+title='PARTNERS'
+]
+
+[learning_feature
+icon='icon-office-02'
+title='SINGAPORE EXCHANGE'
+url='#'
+button='Read case study']
+Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero. Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero.[/learning_feature]
+
+[learning_feature
+icon='icon-education-science-14'
+title='MACQUARIE'
+url='#'
+button='Read case study'
+]Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero. Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero.[/learning_feature]
+
+[learning_feature
+icon='icon-faces-users-04'
+title='eTORO'
+url='#'
+button='Read case study'
+]Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero. Sit amet, consectetur adipiscing elit. In hac divisione rem ipsam prorsus probo elegantiam desidero.[/learning_feature]
+
+[learning_features_close]

@@ -1,0 +1,31 @@
+{
+  "name": "TH_web",
+  "version": "0.0.0",
+  "authors": [
+    "Jennie Ji <jennie.ji@hotmail.com>"
+  ],
+  "keywords": [
+    "tradehero"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fullpage": "~2.6.6",
+    "jquery": "~1.11.x",
+    "jquery-ui": "~1.11.4",
+    "magnific-popup": "~1.0.0",
+    "artTemplate": "~3.0.1",
+    "jquery-validation": "~1.14.0",
+    "jquery-form": "~3.46.0",
+    "Autolinker.js": "~0.18.1"
+  },
+  "devDependencies": {
+    "html5shiv": "~3.7.3"
+  }
+}
