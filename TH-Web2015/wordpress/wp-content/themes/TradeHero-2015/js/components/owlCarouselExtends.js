@@ -72,9 +72,9 @@ var TH = (function( TH, $ ) {
 
 					var anchor = $(this).data('owlAnchor');
 					var $wrapper = $(e.delegateTarget);
-					var $owl = $wrapper.find('.owl-carsousel').data('owlCarousel');
-					if( !$owl || !/^[0-9]+$/.test(anchor.toString()) ) { return; }
+					var $owl = $wrapper.find('.owl-carousel').data('owlCarousel');
 
+					if( !$owl || !/^[0-9]+$/.test(anchor.toString()) ) { return; }
 					$wrapper.find('[data-owl-anchor]').removeClass('active');
 					$(this).addClass('active');
 					$owl.goTo( anchor );
