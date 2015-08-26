@@ -66,6 +66,18 @@ var TH = (function( TH, $ ) {
 		template.helper('autolink', function(input) {
 			return Autolinker.link(input);
 		});
+		template.helper('number', function(input, decimal) {
+			var str = input.toString();
+			var regDecimal = new RegExp('\\.\\d{' + ( decimal || 0 ) + '}');
+			var decimalPart = str.match(regDecimal);
+
+			if( !decimalPart && decimal>0 ) {
+				str = str + '.' + (new Array(decimal+1)).join('0');
+			} else {
+				str = str.replace(/\.\d*$/, decimalPart[0]);
+			}
+			return str;
+		});
 		return this;
 	};
 

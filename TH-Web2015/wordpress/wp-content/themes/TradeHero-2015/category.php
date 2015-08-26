@@ -4,8 +4,19 @@
  * @subpackage TradeHero-2015
  * @since TradeHero 2.0
  */
-?>
-<?php
+
+$paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+$exclude_cat = get_cat_id( 'TH' );
+
+query_posts( array(
+	'paged'				=> $paged,
+	'posts_per_page'	=> get_option('posts_per_page'),
+	'post_status'		=> 'publish',
+	'cat'				=> empty( $exclude_cat ) ? $cat : $cat . ',-' . $exclude_cat
+) );
+
+$posts = $wp_query->posts;
+
 tradehero_activate_blog_nav();
 get_header(); 
 
@@ -40,7 +51,7 @@ $current_page = get_query_var('paged') ? get_query_var('paged') : 1;
 						$offset = $current_page * $perpage;
 						$access_token = get_field('fb_access_token', 'option');
 					?>
-						<script class="ajax-get-helper" type="text-html" 
+						<script class="ajax-get-helper" type="text/html" 
 						data-request="https://graph.facebook.com/v2.4/<?php echo $facebook_page_id; ?>/posts?offset=<?php echo $offset; ?>&amp;limit=<?php echo $perpage; ?>&amp;fields=id,message,attachments,created_time&amp;access_token=<?php echo $access_token; ?>">
 						{{ each data as post }}
 							<article class="column six item facebook-feed">

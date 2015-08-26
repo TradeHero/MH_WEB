@@ -4,14 +4,14 @@
 (function($) {
 	
 	$(function() {
+		TH.ajaxHelpers().get();
 		TH.phoneScreen().init();
 		TH.templateExtends();
 		TH.fullpage();
-		TH.toggle().group('.tabs-title', 'a').group('.calendar-vertical', 'li>a');
+		// TH.toggle().group('.tabs-title', 'a').group('.calendar-vertical', 'li>a');
 		TH.rangeSlider();
 		TH.popup().init();
 		TH.leaderboard().init();
-		TH.ajaxHelpers().get();
 		TH.youtube().videoInit();
 		TH.formValidate();
 		TH.shuffleExtends().ajaxInit().fbReload();

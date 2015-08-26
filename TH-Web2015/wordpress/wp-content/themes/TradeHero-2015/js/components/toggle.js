@@ -22,25 +22,30 @@ var TH = (function( TH, $ ) {
 			group: function( selector, linksSelector ) {
 				var $elements = $(selector || '.tabs-title');
 				var that = this;
-				if( $elements.length < 1 || !this.item ) { return this; }
+				if( $elements.length < 1 ) { return this; }
 
 				var activeClass = 'active';
 
 				$elements.each(function() {
-					var $links = $(this).find(linksSelector);
-					var	$activeLinks = $links.filter('.' + activeClass);
-					if( $activeLinks.length>1 ) {
-						that.item( $activeLinks.not(':first') );
-					} else {
-						that.item( $links.first() );
+					var $group = $(this);
+					var init = function() {
+						var $links = $group.find(linksSelector);
+						var	$activeLinks = $links.filter('.' + activeClass);
+						if( $activeLinks.length>1 ) {
+							that.item( $activeLinks.not(':first') );
+						} else {
+							that.item( $links.first() );
+						}
+						$activeLinks.click();
 					}
 
-					$links.on('click', function(e) {
+					$group.on('click', linksSelector, function(e) {
 						e.preventDefault();
 						var $this = $(this);
-						that.item( $links.filter('.' + activeClass).not($this) );
+						that.item( $group.find(linksSelector +'.' + activeClass).not($this) );
 						that.item( $this );
 					});
+					init();
 				});
 
 				return this;

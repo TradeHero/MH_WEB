@@ -3,16 +3,28 @@
  */
 
 var TH = (function( TH, $ ) {
-	TH.leaderboard = function( selector ) {
+	TH.leaderboard = function( ) {
 		return {
 			init: function() {
-				if ( $('body').width() < 1024 ) {
-					var that = this;
-					$( selector || '.leaderboard-chart' ).onScreen({
-						doIn: function() {
-							that.chart( this );
-						}
+				var that = this;
+				var $leaderboard = $('section.heroes');
+				var $ajax = $leaderboard.find('.ajax-get-helper').data('promise');
+				var init = function() {
+					if ( $('body').width() < 1024 ) {
+						$( '.leaderboard-chart' ).onScreen({
+							doIn: function() {
+								that.chart( this );
+							}
+						});
+					}
+					TH.toggle().group('section.heroes .tabs-title', 'a');
+				}
+				if ( $ajax ) {
+					$ajax.done(function() {
+						init();
 					});
+				} else {
+					init();
 				}
 				return this;
 			},

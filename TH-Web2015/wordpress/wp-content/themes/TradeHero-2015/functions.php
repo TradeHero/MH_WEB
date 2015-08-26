@@ -135,6 +135,7 @@ function tradehero_setup () {
 	 */
 	require get_template_directory() . '/inc/ajax-feedback.php';
 	require get_template_directory() . '/inc/ajax-send-message.php';
+	require get_template_directory() . '/inc/ajax-leaderboard.php';
 }
 add_action( 'after_setup_theme', 'tradehero_setup' );
 

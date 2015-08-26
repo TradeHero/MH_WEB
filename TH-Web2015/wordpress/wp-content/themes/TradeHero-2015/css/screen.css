@@ -2147,7 +2147,7 @@ a.feature-icon:not(.active):hover {
     color: #fff;
 }
 
-.percent:after {
+.chart-content .percent:after {
     content: '%';
 }
 .percent.raising {
@@ -6044,6 +6044,9 @@ footer .row-content.buffer {
     position: absolute;
     top: -18px;
     left: -17px;
+}
+.hero .avatar.keep-left + div {
+    padding-left: 66px;
 }
 .hero .avatar.keep-left + div,
 .hero .avatar.keep-left + div * {

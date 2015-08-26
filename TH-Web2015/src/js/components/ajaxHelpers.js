@@ -17,6 +17,14 @@ var TH = (function( TH, $ ) {
 
 					promise = $.get(request).done(function( response ) {
 						if( !response ) { return; }
+						if( typeof(response) === 'string' ) { 
+							response = JSON.parse(response); 
+						}
+						if( Array.isArray(response) ) { 
+							response = {
+								data: response
+							};
+						}
 						var templateSrc = $this.html();
 						var html = template.compile(templateSrc)(response);
 						var $inserted;
@@ -25,6 +33,7 @@ var TH = (function( TH, $ ) {
 					});
 					promise.fail(function(){
 						// Fail handler
+						console.log(arguments)
 					});
 					$this.data('promise', promise);
 				});
