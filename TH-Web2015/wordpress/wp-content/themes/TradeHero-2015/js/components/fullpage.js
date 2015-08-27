@@ -33,11 +33,6 @@ var TH = (function( TH, $ ) {
 		        loopHorizontal: true,
 		        scrollOverflow: false,
 		        fitToSection: true,
-		        afterLoad: function(anchor) {
-		        	if( anchor === 'heroes' ) {
-		        		TH.leaderboard().chart( $(this).find('.leaderboard-chart') );
-		        	}
-		        },
 		        afterRender: function() {
 		        	// Fix: autoplay not work
 		        	$('video[autoplay]:visible').each(function() {

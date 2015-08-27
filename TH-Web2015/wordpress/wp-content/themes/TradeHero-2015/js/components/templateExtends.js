@@ -70,11 +70,12 @@ var TH = (function( TH, $ ) {
 			var str = input.toString();
 			var regDecimal = new RegExp('\\.\\d{' + ( decimal || 0 ) + '}');
 			var decimalPart = str.match(regDecimal);
+			decimalPart = decimalPart ? decimalPart[0] : '';
 
-			if( !decimalPart && decimal>0 ) {
-				str = str + '.' + (new Array(decimal+1)).join('0');
+			if( decimal>0 && decimalPart.length < decimal + 1 ) {
+				str = str + '.' + ( new Array( decimal - decimalPart.length + ( decimalPart.length>0 ? 2 : 1 ) ) ).join('0');
 			} else {
-				str = str.replace(/\.\d*$/, decimalPart[0]);
+				str = str.replace(/\.\d*$/, decimalPart);
 			}
 			return str;
 		});

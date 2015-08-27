@@ -15,6 +15,7 @@ var TH = (function( TH, $ ) {
 					var promise;
 					if( !request ) { return; }
 
+					var $loader = $('<div class="loading"/>').insertBefore($this);
 					promise = $.get(request).done(function( response ) {
 						if( !response ) { return; }
 						if( typeof(response) === 'string' ) { 
@@ -30,10 +31,10 @@ var TH = (function( TH, $ ) {
 						var $inserted;
 						$inserted = $(html).insertAfter( $this );
 						$this.data('appended', $inserted);
-					});
-					promise.fail(function(){
+					}).fail(function(){
 						// Fail handler
-						console.log(arguments)
+					}).always(function() {
+						$loader.remove();
 					});
 					$this.data('promise', promise);
 				});

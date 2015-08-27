@@ -143,6 +143,7 @@ add_action( 'after_setup_theme', 'tradehero_setup' );
 /**
  * Helpers
  */
+require get_template_directory() . '/inc/get-banner.php';
 function tradehero_boolean_to_string( $var ) {
 	return $var ? 'true' : 'false';
 }
@@ -155,5 +156,7 @@ function tradehero_activate_blog_nav() {
 	}
 	add_filter('nav_menu_css_class' , 'tradehero_active_blog_nav_class' , 10 , 2);
 }
-require get_template_directory() . '/inc/get-banner.php';
+function tradehero_random_avatar() {
+	echo get_template_directory_uri() . '/img/avatars/' . rand(0,7) . '.png';
+}
 ?>

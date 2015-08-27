@@ -11,11 +11,13 @@ var TH = (function( TH, $ ) {
 				var $ajax = $leaderboard.find('.ajax-get-helper').data('promise');
 				var init = function() {
 					if ( $('body').width() < 1024 ) {
-						$( '.leaderboard-chart' ).onScreen({
+						$leaderboard.onScreen({
 							doIn: function() {
-								that.chart( this );
+								that.chart( $leaderboard.find('.leaderboard-chart') );
 							}
 						});
+					} else {
+						that.chart( $leaderboard.find('.leaderboard-chart') );
 					}
 					TH.toggle().group('section.heroes .tabs-title', 'a');
 				}
