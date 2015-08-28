@@ -129,6 +129,7 @@ function tradehero_setup () {
 	require get_template_directory() . '/inc/member-shortcode.php';
 	require get_template_directory() . '/inc/feature-shortcode.php';
 	require get_template_directory() . '/inc/grid-shortcode.php';
+	require get_template_directory() . '/inc/cloud-shortcode.php';
 
 	/**
 	 * Ajax handlers

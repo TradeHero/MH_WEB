@@ -8,7 +8,7 @@
 		TH.phoneScreen().init();
 		TH.templateExtends();
 		TH.fullpage();
-		// TH.toggle().group('.tabs-title', 'a').group('.calendar-vertical', 'li>a');
+		TH.toggle().group('.tabs-title', 'a').group('.calendar-vertical', 'li>a');
 		TH.rangeSlider();
 		TH.popup().init();
 		TH.leaderboard().init();

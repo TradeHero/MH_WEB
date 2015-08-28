@@ -28,7 +28,7 @@ require get_template_directory() . '/inc/responsive-helper.php';
 				<?php
 				foreach( $locations as $index => $location ) {
 					$location_title = $location['title'];
-					$id_attr = 'location-' . $location_title;
+					$id_attr = 'location-' . trim($location_title);
 				?>
 					<li class="column reset <?php if( $index == $location_length ) { echo $col . ' last'; } else { echo $col; } ?>">
 						<a href="#<?php echo $id_attr; ?>"><span class="icon icon-pin"></span>&nbsp;<?php echo $location_title; ?></a>
