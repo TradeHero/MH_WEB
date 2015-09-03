@@ -1,7 +1,6 @@
 /**
  * @file templateExtends.js
  */
-
 var TH = (function( TH, $ ) {
 	TH.templateExtends = function() {
 		template.helper('dateFormat', function (date, format) {
@@ -78,6 +77,14 @@ var TH = (function( TH, $ ) {
 				str = str.replace(/\.\d*$/, decimalPart);
 			}
 			return str;
+		});
+		template.helper('randomNumber', function(input) {
+			var num = parseInt(input);
+			if( typeof(num) === 'number' ) {
+				return Math.round( Math.random() * num );
+			} else {
+				return input;
+			}
 		});
 		return this;
 	};

@@ -17,6 +17,7 @@
 		TH.shuffleExtends().ajaxInit().fbReload();
 		TH.owlCarouselExtends().init('.video-slider').deepLink();
 		TH.cloud();
+		TH.nav().initSectionNavs();
 
 		$('select').selectmenu();
 		// $('.calendar-vertical').accordion();

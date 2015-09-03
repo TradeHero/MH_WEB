@@ -104,6 +104,17 @@ function tradehero_setup () {
 			'language' 		=> 'Language'
 		)
 	);
+
+	/*
+	 * Custom URL
+	 */
+	add_action( 'init', 'tradehero_custom_route' );
+	function tradehero_custom_route() { 
+	    add_rewrite_rule(
+	        "download/?",
+	        "index.php?action=download",
+	        "top");
+	}
 	
 	/*
 	 * filters
@@ -156,8 +167,5 @@ function tradehero_activate_blog_nav() {
 		return $classes;
 	}
 	add_filter('nav_menu_css_class' , 'tradehero_active_blog_nav_class' , 10 , 2);
-}
-function tradehero_random_avatar() {
-	echo get_template_directory_uri() . '/img/avatars/' . rand(0,7) . '.png';
 }
 ?>

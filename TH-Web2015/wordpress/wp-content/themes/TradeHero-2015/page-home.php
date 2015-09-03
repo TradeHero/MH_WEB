@@ -174,7 +174,7 @@ get_header();
 			data-request="/wp-admin/admin-ajax.php?action=leaderboard">
 				<div class="column large-nine medium-eight">
 					<div class="row">
-						<h3 class="section-title">Stock Heroes of Last 1 Month</h3>
+						<h3 class="section-title">Stock Heroes of Last 30 Days</h3>
 						{{ each data as d }}
 							{{ if d.leaderboardName == 'Last 30 Days' }}
 								{{ if d.users && d.users[0] }}
@@ -183,13 +183,12 @@ get_header();
 											<div class="keep-left avatar">
 												<div class="icon icon-crown-2"></div>
 												{{if d.users[0].avatar}}<img src="{{ d.users[0].avatar }}" alt="" width="60" height="60">{{/if}}
-												{{if !d.users[0].avatar}}<img src="<?php tradehero_random_avatar(); ?>" alt="" width="60" height="60">{{/if}}
+												{{if !d.users[0].avatar}}<img src="<?php echo get_template_directory_uri(); ?>/img/avatars/{{ 7 | randomNumber }}.png" alt="" width="60" height="60">{{/if}}
 											</div>
 										</div>
 										<div class="column large-nine large-last small-ten small-last tiny-nine tiny-last profile">
 											<div class="column small-four">
 												<span class="name">{{ d.users[0].displayName }}</span>&nbsp;&nbsp;
-												<span class="percent raising">{{ d.users[0].roiInPeriod }}</span>
 											</div>
 											<div class="column small-four info">
 												<span class="icon icon-globe"></span> Country: {{ d.users[0].countryCode }}
@@ -199,7 +198,7 @@ get_header();
 											</div>
 										</div>
 										<div class="column large-nine large-last performances buffer-top">
-											<div class="column large-four small-five">
+											<div class="column large-four small-six">
 												<dl class="column small-twelve tiny-four">
 													<dt class="column reset small-nine">Avg. Monthly Trades</dt>
 													<dd class="column small-three small-last">{{ d.users[0].avgTradesPerMonth | number:2 }}</dd>
@@ -208,36 +207,22 @@ get_header();
 													<dt class="column reset small-nine">Last Month Trades</dt>
 													<dd class="column small-three small-last">{{ d.users[0].tradesInPeriod }}</dd>
 												</dl>
-												<!--TODO:
-												<dl class="column small-twelve tiny-four tiny-last">
-													<dt class="column reset small-nine">Avg. Days Held</dt>
-													<dd class="column small-three small-last">29</dd>
-												</dl>
-												-->
 											</div>
-											<div class="column large-eight large-last small-seven small-last charts">
-												<!--TODO:
-												<div class="leaderboard-chart" data-percent="11">
+											<div class="column large-four small-three charts">
+												<div class="leaderboard-chart" data-percent="49">
 													<div class="chart-content">
-														<div class="chart-result">Poor</div>
-														<div class="chart-title">Trade Consistency</div>
+														<div class="chart-result green">{{ d.users[0].roiInPeriod.replace(/\.\d*\%$/, '%') }}</div>
+														<div class="chart-title">ROI in Period</div>
 													</div>
 												</div>
-												-->
+											</div>
+											<div class="column large-four large-last small-three small-last charts">
 												<div class="leaderboard-chart" data-percent="{{ d.users[0].winRatio * 100 }}">
 													<div class="chart-content">
 														<div class="percent"></div>
 														<div class="chart-title">Win Ratio</div>
 													</div>
 												</div>
-												<!--TODO:
-												<div class="leaderboard-chart" data-percent="45">
-													<div class="chart-content">
-														<div class="chart-result">Great</div>
-														<div class="chart-title">Relative Performance</div>
-													</div>
-												</div>
-												-->
 											</div>
 										</div>
 									</div>
@@ -248,7 +233,7 @@ get_header();
 											<div class="column large-three small-six hero {{if i % 4 == 0}}large-last{{/if}} {{if i % 2 == 0}}small-last{{/if}}">
 												<div class="keep-left avatar">
 													{{if user.avatar}}<img src="{{ user.avatar }}" alt="" width="60" height="60">{{/if}}
-													{{if !user.avatar}}<img src="<?php tradehero_random_avatar(); ?>" alt="" width="60" height="60">{{/if}}
+													{{if !user.avatar}}<img src="<?php echo get_template_directory_uri(); ?>/img/avatars/{{ 7 | randomNumber }}.png" alt="" width="60" height="60">{{/if}}
 												</div>
 												<div class="">
 													<div class="name">{{ user.displayName }}</div>

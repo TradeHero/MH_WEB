@@ -40,16 +40,19 @@ var TH = (function( TH, $ ) {
 		        	});
 		        },
 		        afterResize: function() {
-		        	if( enable() ) { return; }
-		        	$.fn.fullpage.destroy('all');
-		        	enabled = false;
-		        	$(window).resize(function() {
-		        		if( enable() && !enabled ) {
-		        			init();
-		        		}
-		        	});
+					if( enable() ) { return; }
+		        	destroy();
 		        }
 			});
+		}
+		function destroy() {
+        	$.fn.fullpage.destroy('all');
+        	enabled = false;
+        	$(window).resize(function() {
+        		if( enable() && !enabled ) {
+        			init();
+        		}
+        	});
 		}
 
 		$sections.each(function() {

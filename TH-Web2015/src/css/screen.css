@@ -1319,32 +1319,6 @@ header.fixed-header.transparent.light .nav ul > li > a {
 .portfolio-section figure img,
 .portfolio-section .overlay {
     box-shadow: 0px 1px 5px #ccc;
-}p
-
-
-
-ul.cats {
-    margin-top: 0;
-    text-align: center;
-}
-
-ul.cats li {
-    margin-right: 1em;
-    color: #444;
-    font-weight: 700;
-    font-size: 0.889em;
-    font-family: 'Century Gothic', sans-serif;
-    cursor: pointer;
-}
-
-ul.cats li:hover {
-    border-bottom: 2px solid #333;
-    color: #333;
-}
-
-ul.cats li.active {
-    border-bottom: none;
-    color: #478FE3;
 }
 
 
@@ -1703,13 +1677,13 @@ a.reply:hover {
     color: #999;
 }
 .widget li a {
-    font-style: normal;
     color: #333;
     font-size: 1.14em;
 }
 .widget li li a:before {
     content: '- ';
 }
+
 
 /*----------------------------------------------------------------
     Social widgets
@@ -2135,7 +2109,7 @@ a.feature-icon:not(.active):hover {
 .count-number-done,
 .chart-result {
     color: #666;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 2.333em;
     font-family: 'Century Gothic', sans-serif;
     line-height: 1.34;
@@ -6259,6 +6233,15 @@ ul.tags li a:hover .fa {
 }
 .facebook-feed .fb-follow {
     float: right;
+}
+
+
+/* Category */
+.current-cat {
+    font-weight: bold;
+}
+.current-cat a {
+    color: #000;
 }
 
 /* Overwrite MFP */
