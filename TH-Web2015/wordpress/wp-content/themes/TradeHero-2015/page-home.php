@@ -150,7 +150,8 @@ get_header();
 	</section>
 	<section id="academy" class="row section academy">
 		<div class="row-content">
-			<h2 class="section-heading"><a class="button g-ytsubscribe red" href="https://www.youtube.com/user/TradeHeroMobile" target="_blank" data-channel="TradeHero"><span class="fa fa-youtube fa-lg"> </span> Subscribe</a><?php the_field('youtube_channel_caption'); ?></h2>
+			<h2 class="section-heading"><a class="button mobile-hide g-ytsubscribe red" href="https://www.youtube.com/user/TradeHeroMobile" target="_blank" data-channel="TradeHero"><span class="fa fa-youtube fa-lg"> </span> Subscribe</a><?php the_field('youtube_channel_caption'); ?></h2>
+			<div class="desktop-hide"><a class="button g-ytsubscribe red" href="https://www.youtube.com/user/TradeHeroMobile" target="_blank" data-channel="TradeHero"><span class="fa fa-youtube fa-lg"> </span> Subscribe</a></div>
 			<div class="section-summary"><?php the_field('youtube_channel_description'); ?></div>
 			<div class="desktop-slider video-slider" data-autoplay="3000">
 				<script class="ajax-get-helper" type="text/html"
@@ -199,16 +200,16 @@ get_header();
 										</div>
 										<div class="column large-nine large-last performances buffer-top">
 											<div class="column large-four small-six">
-												<dl class="column small-twelve tiny-four">
+												<dl class="column small-twelve tiny-six">
 													<dt class="column reset small-nine">Avg. Monthly Trades</dt>
 													<dd class="column small-three small-last">{{ d.users[0].avgTradesPerMonth | number:2 }}</dd>
 												</dl>
-												<dl class="column small-twelve tiny-four">
+												<dl class="column small-twelve tiny-six tiny-last">
 													<dt class="column reset small-nine">Last Month Trades</dt>
 													<dd class="column small-three small-last">{{ d.users[0].tradesInPeriod }}</dd>
 												</dl>
 											</div>
-											<div class="column large-four small-three charts">
+											<div class="column large-four small-three tiny-six charts">
 												<div class="leaderboard-chart" data-percent="49">
 													<div class="chart-content">
 														<div class="chart-result green">{{ d.users[0].roiInPeriod.replace(/\.\d*\%$/, '%') }}</div>
@@ -216,7 +217,7 @@ get_header();
 													</div>
 												</div>
 											</div>
-											<div class="column large-four large-last small-three small-last charts">
+											<div class="column large-four large-last small-three small-last tiny-six tiny-last charts">
 												<div class="leaderboard-chart" data-percent="{{ d.users[0].winRatio * 100 }}">
 													<div class="chart-content">
 														<div class="percent"></div>
