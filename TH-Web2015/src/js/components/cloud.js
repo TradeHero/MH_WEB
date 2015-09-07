@@ -7,6 +7,18 @@ var TH = (function( TH, $ ) {
 		var $element = $( selector || '.tag-cloud' );
 		if( $element.length < 1 ) { return; }
 
+		function resize() {
+			$element.each(function() {
+				var $canvas = $(this).find('canvas');
+				var width = $(this).width();
+				$canvas.attr('width', width);
+				if( $canvas.height() > width ) {
+					$canvas.attr('height', width);
+				}
+				$canvas.tagcanvas('reload')
+			});
+		}
+
 		$element.each(function(i) {
 			var $canvas = $(this).find('canvas'),
 				$tags = $(this).find('.tag-cloud-tags');
@@ -36,14 +48,9 @@ var TH = (function( TH, $ ) {
 		   		$tags.show();
 			}
 		});
+		resize();
 
-		$(window).resize(function() {
-			$element.each(function() {
-				var $canvas = $(this).find('canvas');
-				$canvas.attr('width', $(this).width());
-				$canvas.tagcanvas('reload')
-			});
-		});
+		$(window).resize(resize);
 
 		return this;
 	};

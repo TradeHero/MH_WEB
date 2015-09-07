@@ -22,7 +22,7 @@ get_header();
 
 $current_page = get_query_var('paged') ? get_query_var('paged') : 1;
 ?>
-<main role="main" class="blog masonry-style">
+<main role="main">
 	<?php 
 	// Get banner from posts page
 	$blog_page_ID = get_option( 'page_for_posts' );
@@ -41,7 +41,7 @@ $current_page = get_query_var('paged') ? get_query_var('paged') : 1;
 			<?php } else { ?>
 				<div class="column">
 			<?php } ?>
-				<div class="grid-items preload">
+				<div class="grid-items preload blog masonry-style">
 					<div class="shuffle-sizer three"></div>
 					<?php
 					$facebook_page_id = get_field('fb_page_id', 'option');
@@ -101,7 +101,7 @@ $current_page = get_query_var('paged') ? get_query_var('paged') : 1;
 							<?php
 							$excerpt = get_the_excerpt();
 							if( $excerpt ) {
-								echo $excerpt;
+								echo '<div>' . trim( $excerpt, " \t\n\r\0\x0B&nbsp;" ) . '</div>';
 							?>
 								<div class="read-more"><a href="<?php the_permalink(); ?>">View full post ...</a></div>
 							<?php

@@ -67,16 +67,16 @@ require get_template_directory() . '/inc/responsive-helper.php';
 				<h3><?php the_field( 'support_form_title' ); ?></h3>
 				<form id="contact-form" class="contact-section ajax-form" method="post" action="/wp-admin/admin-ajax.php?action=feedback">
 					<span class="pre-input"><i class="icon icon-user"></i></span>
-					<input class="name plain buffer" type="text" name="username" placeholder="Full name" required minlength="3">
+					<input class="name buffer" type="text" name="username" placeholder="Full name" required minlength="3">
 					<span class="pre-input"><i class="icon icon-email"></i></span>
-					<input class="email plain buffer" type="email" name="email" placeholder="Email address" required>
+					<input class="email buffer" type="email" name="email" placeholder="Email address" required>
 					<?php
 					$support_types = get_field( 'support_types' );
 					if( !empty( $support_types ) ) {
 						$types = explode( '<br />', $support_types );
 					?>
 					<span class="pre-input"><i class="icon icon-images"></i></span>
-					<select name="type" class="plain buffer">
+					<select name="type" class="buffer">
 						<?php
 						foreach ($types as $type) {
 							$type = trim( $type );
@@ -89,7 +89,7 @@ require get_template_directory() . '/inc/responsive-helper.php';
 					<?php
 					}
 					?>
-					<textarea class="plain buffer" name="message" placeholder="Don't forget that kindness is all!" required minlength="20"></textarea>
+					<textarea class="buffer" name="message" placeholder="Don't forget that kindness is all!" required minlength="20"></textarea>
 					<input id="send" class="plain button red" type="submit" value="Send a Message">
 					<input type="hidden" name="to" value="<?php the_field( 'support_email' ); ?>">
 				</form>	
