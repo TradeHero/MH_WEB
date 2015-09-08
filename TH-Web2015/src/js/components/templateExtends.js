@@ -4,7 +4,7 @@
 var TH = (function( TH, $ ) {
 	TH.templateExtends = function() {
 		template.helper('dateFormat', function (date, format) {
-			var t = new Date(date);
+			var t = new Date( date.replace(/t/i, ' ').replace(/\-/g, '/').replace(/\+\d*$/, '') );
 			var formated = format;
 			var year = t.getFullYear(),
 				month = t.getMonth() + 1,
