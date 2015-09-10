@@ -4,6 +4,7 @@
 
 var TH = (function( TH, $ ) {
 	TH.ajaxHelpers = function() {
+		// $.support.cors = true;
 		return {
 			get: function( selector ) {
 				var $element = $(selector || '.ajax-get-helper');
@@ -16,12 +17,14 @@ var TH = (function( TH, $ ) {
 					if( !request ) { return; }
 
 					var $loader = $('<div class="loading"/>').insertBefore($this);
-					promise = $.get(request).done(function( response ) {
+					promise = $.ajax(request, {
+						method: 'GET'
+					}).done(function( response ) {
 						if( !response ) { return; }
 						if( typeof(response) === 'string' ) { 
 							response = JSON.parse(response); 
 						}
-						if( Array.isArray(response) ) { 
+						if( response.length && response instanceof Array ) { 
 							response = {
 								data: response
 							};
@@ -32,6 +35,7 @@ var TH = (function( TH, $ ) {
 						$inserted = $(html).insertAfter( $this );
 						$this.data('appended', $inserted);
 					}).fail(function(){
+						// console.log(JSON.stringify(arguments));
 						// Fail handler
 					}).always(function() {
 						$loader.remove();

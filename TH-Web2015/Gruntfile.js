@@ -66,6 +66,7 @@ module.exports = function(grunt) {
             '<%= config.bower %>/jquery-validation/dist/jquery.validate.min.js',
             '<%= config.bower %>/jquery-form/jquery.form.js',
             '<%= config.bower %>/Autolinker.js/dist/Autolinker.min.js',
+            '<%= config.bower %>/jQuery-ajaxTransport-XDomainRequest/jquery.xdomainrequest.min.js',
             '<%= config.src %>/js/jquery.tagcanvas.min.js',
             '<%= config.src %>/js/components/*.js',
             '<%= config.src %>/js/global.js'

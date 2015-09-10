@@ -4698,6 +4698,7 @@ footer .row-content.buffer {
 }
 .video-slider .owl-item {
     overflow-y: none;
+    position: relative;
 }
 .video-slider .owl-theme .owl-controls .owl-buttons div {
     color: #333;

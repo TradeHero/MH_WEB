@@ -16,14 +16,15 @@
     "tests"
   ],
   "dependencies": {
-    "fullpage": "~2.6.6",
-    "jquery": "~1.11.x",
-    "jquery-ui": "~1.11.4",
-    "magnific-popup": "~1.0.0",
+    "Autolinker.js": "~0.18.1",
     "artTemplate": "~3.0.1",
-    "jquery-validation": "~1.14.0",
+    "fullpage": "~2.6.6",
+    "jQuery-ajaxTransport-XDomainRequest": "jQuery.XDomainRequest#~1.0.4",
+    "jquery": "~1.11.x",
     "jquery-form": "~3.46.0",
-    "Autolinker.js": "~0.18.1"
+    "jquery-ui": "~1.11.4",
+    "jquery-validation": "~1.14.0",
+    "magnific-popup": "~1.0.0"
   },
   "devDependencies": {
     "html5shiv": "~3.7.3"

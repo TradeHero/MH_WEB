@@ -14,7 +14,6 @@ var TH = (function( TH, $ ) {
 				var isActive = !$(this).is('.' + activeClass);
 				$(this).toggleClass(activeClass);
 				$obj.toggleClass(activeClass, isActive);
-				// $element[(isActive ? 'add' : 'remove') + 'Class'](activeClass);
 			});
 			return this;
 		};

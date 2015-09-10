@@ -10,6 +10,7 @@ var TH = (function( TH, $ ) {
 				var $leaderboard = $('section.heroes');
 				var $ajax = $leaderboard.find('.ajax-get-helper').data('promise');
 				var init = function() {
+					TH.toggle().group('section.heroes .tabs-title', 'a');
 					if ( $('body').width() < 1024 ) {
 						$leaderboard.onScreen({
 							doIn: function() {
@@ -19,7 +20,6 @@ var TH = (function( TH, $ ) {
 					} else {
 						that.chart( $leaderboard.find('.leaderboard-chart') );
 					}
-					TH.toggle().group('section.heroes .tabs-title', 'a');
 				}
 				if ( $ajax ) {
 					$ajax.done(function() {
