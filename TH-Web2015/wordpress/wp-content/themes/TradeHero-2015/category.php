@@ -34,10 +34,10 @@ $current_page = get_query_var('paged') ? get_query_var('paged') : 1;
 			the_content();
 			if ( is_active_sidebar( 'sidebar-category' ) ) {
 			?>
-				<aside role="complementary" class="column small-three right">
+				<aside role="complementary" class="column small-four medium-three right">
 					<?php dynamic_sidebar( 'sidebar-category' ); ?>
 				</aside>
-				<div class="column small-nine small-last">
+				<div class="column small-eight small-last medium-nine medium-last">
 			<?php } else { ?>
 				<div class="column">
 			<?php } ?>
@@ -56,9 +56,9 @@ $current_page = get_query_var('paged') ? get_query_var('paged') : 1;
 						{{ each data as post }}
 							<article class="column six item facebook-feed">
 								<h5 class="meta-post">
-									<a href="https://www.facebook.com/<?php echo $facebook_page_id; ?>" target="_blank"><span class="fa fa-lg fa-facebook-square"></span> TradeHero</a>&nbsp;-&nbsp;
+									<a href="http://www.facebook.com/<?php echo $facebook_page_id; ?>" target="_blank"><span class="fa fa-lg fa-facebook-square"></span> TradeHero</a>&nbsp;-&nbsp;
 									<time datetime="{{ post.created_time }}">{{ post.created_time | dateFormat: 'MMM dd, yyyy' }}</time>
-									<div class="fb-follow" data-href="https://www.facebook.com/TradeHero" data-width="100" data-height="20" data-layout="button" data-show-faces="true"></div>
+									<div class="fb-follow" data-href="https://www.facebook.com/TradeHero" data-width="56" data-height="20" data-layout="button" data-show-faces="true"></div>
 								</h5>
 								{{ if post.attachments.data }}
 									{{ if post.attachments.data[0].media && post.attachments.data[0].media.image }}

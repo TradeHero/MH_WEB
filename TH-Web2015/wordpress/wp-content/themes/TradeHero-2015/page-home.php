@@ -86,6 +86,7 @@ get_header();
 								<param name="wmode" value="transparent" />
 								<param name="flashVars" value="config={'playlist':[{'url':'<?php urlencode( the_field('intro_video_mp4') ); ?>','autoPlay':true}]}" />
 								<!-- <span title="No video playback capabilities, please download the video below">Big Buck Bunny</span> -->
+								<img class="video-post-image" src="<?php echo $intro_video_post_image['url']; ?>" alt="<?php echo $intro_video_post_image['alt']; ?>" width="<?php echo $intro_video_post_image['width']; ?>">
 							</object>
 						</video>
 					</div>
@@ -228,7 +229,7 @@ get_header();
 										</div>
 									</div>
 								{{ /if }}
-								<div class="row">
+								<div class="row block-list">
 									{{ each d.users as user i }}
 										{{ if i != 0 && i < 9 }}
 											<div class="column large-three small-six hero {{if i % 4 == 0}}large-last{{/if}} {{if i % 2 == 0}}small-last{{/if}}">
@@ -271,8 +272,8 @@ get_header();
 										{{ each d.users as user }}
 											<li>
 												<div class="row">
-													<div class="column seven name">{{ user.displayName }}</div>
-													<div class="column five last percent raising">{{ user.roiInPeriod }}</div>
+													<div class="column six name">{{ user.displayName }}</div>
+													<div class="column six last percent raising">{{ user.roiInPeriod }}</div>
 												</div>
 											</li>
 										{{ /each }}

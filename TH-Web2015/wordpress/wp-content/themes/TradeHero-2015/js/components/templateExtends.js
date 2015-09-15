@@ -86,6 +86,9 @@ var TH = (function( TH, $ ) {
 				return input;
 			}
 		});
+		template.helper('toHttps', function(input) {
+			return input.toString().replace(/http:/ig, 'https:');
+		});
 		return this;
 	};
 

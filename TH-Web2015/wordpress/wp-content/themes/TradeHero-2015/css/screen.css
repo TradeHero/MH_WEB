@@ -344,6 +344,73 @@ li>.row {
     padding-top: 3.8%;
  /* This overwrites a layers.css rule */;
 }
+.block-list > .last + .column {
+    clear: left;
+}
+.block-list > .last + .column.right {
+    clear: right;
+}
+@media only screen and (max-width:30em) {
+    .block-list > .tiny-last + .column[class*=" tiny-"], 
+    .block-list > .tiny-last + .column[class^=tiny-] {
+        clear: left;
+    }
+    .block-list > .tiny-last + .column.right[class*=" tiny-"], 
+    .block-list > .tiny-last + .column.right[class^=tiny-] {
+        clear: right;
+    }
+}
+@media only screen and (min-width:30em) and (max-width: 48em) {
+    .block-list > .small-last + .column[class*=" small-"], 
+    .block-list > .small-last + .column[class^=small-] {
+        clear: left;
+    }
+    .block-list > .small-last + .column.right[class*=" small-"], 
+    .block-list > .small-last + .column.right[class^=small-] {
+        clear: right;
+    }
+}
+@media only screen and (min-width:48em) and (max-width: 64em) {
+    .block-list > .medium-last + .column[class*=" medium-"], 
+    .block-list > .medium-last + .column[class^=medium-] {
+        clear: left;
+    }
+    .block-list > .medium-last + .column.right[class*=" medium-"], 
+    .block-list > .medium-last + .column.right[class^=medium-] {
+        clear: right;
+    }
+}
+@media only screen and (min-width:64em) and (max-width: 80em) {
+    .block-list > .large-last + .column[class*=" large-"], 
+    .block-list > .large-last + .column[class^=large-] {
+        clear: left;
+    }
+    .block-list > .large-last + .column.right[class*=" large-"], 
+    .block-list > .large-last + .column.right[class^=large-] {
+        clear: right;
+    }
+}
+@media only screen and (min-width:80em) and (max-width: 90em) {
+    .block-list > .huge-last + .column[class*=" huge-"], 
+    .block-list > .huge-last + .column[class^=huge-] {
+        clear: left;
+    }
+    .block-list > .huge-last + .column.right[class*=" huge-"], 
+    .block-list > .huge-last + .column.right[class^=huge-] {
+        clear: right;
+    }
+}
+@media only screen and (min-width:90em) {
+    .block-list > .extra-last + .column[class*=" extra-"], 
+    .block-list > .extra-last + .column[class^=extra-] {
+        clear: left;
+    }
+    .block-list > .extra-last + .column.right[class*=" extra-"], 
+    .block-list > .extra-last + .column.right[class^=extra-] {
+        clear: right;
+    }
+}
+
 
 p, blockquote,
 .gallery_content,
@@ -1118,7 +1185,7 @@ header.fixed-header.transparent.light .nav ul > li > a {
 
 .blog.masonry-style article {
     margin: 0 0 2em;
-    padding: 1em 2em 2em;
+    padding: 1em 1.5em 2em;
     border: 1px solid #eee;
     box-shadow: 1px 1px 5px #ccc;
     background-color: #fff;
@@ -3926,11 +3993,6 @@ footer .row-content.buffer {
     vertical-align: baseline;
 }
 
-.icon:before,
-.fa:before {
-     vertical-align: middle;
-}
-
 
 /*----------------------------------------------------------------
     Hide icons underline
@@ -6070,6 +6132,7 @@ footer .row-content.buffer {
 .leaderboard {
     margin: 0;
     font-size: 0.875em;
+     -webkit-hyphens: none;
 }
 .leaderboard li {
     padding: 0.1em 0;
@@ -6083,7 +6146,6 @@ footer .row-content.buffer {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
 }
 
 .hero {
@@ -6309,7 +6371,12 @@ ul.tags li a:hover .fa {
 .facebook-feed .fb-follow {
     float: right;
 }
-
+@media handheld, only screen and (max-width: 48em) {
+    .facebook-feed .fb-follow {
+        float: none;
+        margin-top: 0.2em;
+    }
+}
 
 /* Category */
 .current-cat {
