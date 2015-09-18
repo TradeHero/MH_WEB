@@ -350,17 +350,21 @@ li>.row {
 .block-list > .last + .column.right {
     clear: right;
 }
-@media only screen and (max-width:30em) {
+.block-list > .tiny-last + .column[class*=" tiny-"], 
+.block-list > .tiny-last + .column[class^=tiny-] {
+    clear: left;
+}
+.block-list > .tiny-last + .column.right[class*=" tiny-"], 
+.block-list > .tiny-last + .column.right[class^=tiny-] {
+    clear: right;
+}
+@media only screen and (min-width:30em) {
     .block-list > .tiny-last + .column[class*=" tiny-"], 
-    .block-list > .tiny-last + .column[class^=tiny-] {
-        clear: left;
-    }
+    .block-list > .tiny-last + .column[class^=tiny-],
     .block-list > .tiny-last + .column.right[class*=" tiny-"], 
     .block-list > .tiny-last + .column.right[class^=tiny-] {
-        clear: right;
+        clear: none;
     }
-}
-@media only screen and (min-width:30em) and (max-width: 48em) {
     .block-list > .small-last + .column[class*=" small-"], 
     .block-list > .small-last + .column[class^=small-] {
         clear: left;
@@ -370,7 +374,13 @@ li>.row {
         clear: right;
     }
 }
-@media only screen and (min-width:48em) and (max-width: 64em) {
+@media only screen and (min-width:48em) {
+    .block-list > .small-last + .column[class*=" small-"], 
+    .block-list > .small-last + .column[class^=small-],
+    .block-list > .small-last + .column.right[class*=" small-"], 
+    .block-list > .small-last + .column.right[class^=small-] {
+        clear: none;
+    }
     .block-list > .medium-last + .column[class*=" medium-"], 
     .block-list > .medium-last + .column[class^=medium-] {
         clear: left;
@@ -381,6 +391,12 @@ li>.row {
     }
 }
 @media only screen and (min-width:64em) and (max-width: 80em) {
+    .block-list > .medium-last + .column[class*=" medium-"], 
+    .block-list > .medium-last + .column[class^=medium-],
+    .block-list > .medium-last + .column.right[class*=" medium-"], 
+    .block-list > .medium-last + .column.right[class^=medium-] {
+        clear: none;
+    }
     .block-list > .large-last + .column[class*=" large-"], 
     .block-list > .large-last + .column[class^=large-] {
         clear: left;
@@ -390,7 +406,13 @@ li>.row {
         clear: right;
     }
 }
-@media only screen and (min-width:80em) and (max-width: 90em) {
+@media only screen and (min-width:80em) {
+    .block-list > .large-last + .column[class*=" large-"], 
+    .block-list > .large-last + .column[class^=large-],
+    .block-list > .large-last + .column.right[class*=" large-"], 
+    .block-list > .large-last + .column.right[class^=large-] {
+        clear: none;
+    }
     .block-list > .huge-last + .column[class*=" huge-"], 
     .block-list > .huge-last + .column[class^=huge-] {
         clear: left;
@@ -401,6 +423,12 @@ li>.row {
     }
 }
 @media only screen and (min-width:90em) {
+    .block-list > .extra-last + .column[class*=" extra-"], 
+    .block-list > .extra-last + .column[class^=extra-],
+    .block-list > .extra-last + .column.right[class*=" extra-"], 
+    .block-list > .extra-last + .column.right[class^=extra-] {
+        clear: none;
+    }
     .block-list > .extra-last + .column[class*=" extra-"], 
     .block-list > .extra-last + .column[class^=extra-] {
         clear: left;
