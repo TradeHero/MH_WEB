@@ -15,13 +15,13 @@ var TH = (function( TH, $ ) {
 						$form.find('input:submit')
 						.attr('disabled', 'disabled')
 						.addClass('grey');
-						TH().popupLoading();
+						TH.popup().loading();
 					},
 					success: function( response ) {
 						message = response;
 					},
 					complete: function () {
-						TH().popupMessage( message );
+						TH.popup().message( message );
 						$form.find('input:submit')
 						.removeAttr('disabled')
 						.removeClass('grey');
