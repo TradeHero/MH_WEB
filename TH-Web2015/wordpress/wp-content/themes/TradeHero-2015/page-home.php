@@ -156,7 +156,22 @@ get_header();
 			<div class="section-summary"><?php the_field('youtube_channel_description'); ?></div>
 			<div class="desktop-slider video-slider" data-autoplay="3000">
 				<script class="ajax-get-helper" type="text/html"
-				data-request="https://www.googleapis.com/youtube/v3/search?part=snippet%2Cid&channelId=<?php the_field('youtube_channel_ID'); ?>&maxResults=<?php the_field('youtube_channel_max_results'); ?>&order=<?php the_field('youtube_channel_order') ?>&type=video&key=<?php the_field('google_api_key') ?>">
+				data-request="<?php
+					switch( get_field('youtube_channel_type') ) {
+						case 'playlist':
+							echo 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet'
+								. '&playlistId=' . get_field('youtube_playlist_ID')
+								. '&maxResults=' . get_field('youtube_channel_max_results')
+								. '&key=' . get_field('google_api_key');
+							break;
+						case 'channel':
+							echo 'https://www.googleapis.com/youtube/v3/search?part=snippet&type=video'
+								. '&channelId=' . get_field('youtube_channel_ID')
+								. '&maxResults=' . get_field('youtube_channel_max_results')
+								. '&order=' . get_field('youtube_channel_order')
+								. '&key=' . get_field('google_api_key');
+					}
+				?>">
 					<figure>
 						{{each items as video}}
 						<div class="youtube-thumbnail" style="background-image:url('{{video.snippet.thumbnails.high.url}}');">
