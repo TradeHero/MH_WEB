@@ -2,7 +2,7 @@
 
 <main role="main">
 	<div class="row-content buffer">
-		<h1>404 Error</h1>
+		<p class="text-center">This page is not exist. Please try again.</p>
 	</div>
 </main>
 

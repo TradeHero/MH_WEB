@@ -2508,6 +2508,8 @@ a.feature-icon:not(.active):hover {
 .about-us .member-avatar img {
     opacity: 1;
     transition: opacity 800ms ease;
+    width: 100%;
+    max-width: 200px;
 }
 .about-us .member-avatar:hover img{
     opacity: 0.5;
