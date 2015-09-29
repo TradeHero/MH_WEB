@@ -136,7 +136,7 @@ right:20px;
 #provider-37 .text-heading{text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);}
 #provider-24 { background: url('img/background/bg-sgx-season2-2.jpg') no-repeat bottom center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; background-attachment: fixed; position: relative; }
 #provider-37 { background: url('img/background/bg-macquarie-dw-hero.png') no-repeat bottom center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; background-attachment: fixed; position: relative;}
-#provider-37 .text-heading, #provider-44 .text-heading {text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);}
+#provider-37 .text-heading{text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);}
 
 #provider-34 {background: #000000;}
     #provider-34 .btn-default {border-color: #ABD91B; color: #ABD91B;}
@@ -149,18 +149,9 @@ right:20px;
 #provider-43 .light, #provider-43 .text-heading p, #provider-43 .btn-default {color: #0b236b;}
 #provider-43 .btn-default {border: 1px solid #0b236b;}
 
-#provider-44 {background: #FCD020; color: #333;}
-#provider-44 .competition-icon img {margin:0 auto;}
-#provider-44 .btn-default { background: #f47f00; color: #fff; }
-#provider-44 .btn-default:hover { background: transparent; color: #f47f00; border: 1px solid #f47f00; }
-#provider-44.static-header .text-heading p { color: #333; }
-#provider-44 hr {border-top-color: #333;}
-
-
 /* Hide stuff */
 #provider-43 .competition-button-2, #provider-43 .competition-icon, 
-#provider-34 .competition-button-2, #provider-34 .competition-icon,
-#provider-44 .competition-button-2
+#provider-34 .competition-button-2, #provider-34 .competition-icon 
     { display: none;}
 
 @media (min-width: 768px){

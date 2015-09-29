@@ -77,9 +77,9 @@ var TH = (function( TH, $ ) {
 						    ctx.fillRect(-canvasWidth/2, 0, canvasWidth, -canvasWidth/2);
 
 						    // Draw indicator
-						    var angleTopPoint = (1 - (percent + 1) / 50) * Math.PI,
-						    	angleBottomPoint1 = angleTopPoint - Math.PI / 36,
-						    	angleBottomPoint2 = angleTopPoint + Math.PI / 36;
+						    var angleTopPoint = (1 - (percent+0.5)/50) * Math.PI,
+						    	angleBottomPoint1 = angleTopPoint - Math.PI / 30,
+						    	angleBottomPoint2 = angleTopPoint + Math.PI / 30;
 						    var calculate = function(radius, radian) {
 						    	var rotatedRadian = radian + rotate/180 * Math.PI;
 						    	var result = [radius * Math.sin( rotatedRadian ), radius * Math.cos( rotatedRadian )];

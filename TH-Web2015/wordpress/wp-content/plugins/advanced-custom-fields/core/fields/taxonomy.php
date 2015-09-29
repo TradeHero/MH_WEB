@@ -252,10 +252,6 @@ class acf_field_taxonomy extends acf_field
 			
 		}
 		
-		
-		// reset array ( WP saves twice )
-		$this->set_terms = array();
-		
 	}
 	
 	

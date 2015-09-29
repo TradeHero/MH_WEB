@@ -4852,6 +4852,7 @@ footer .row-content.buffer {
 }
 .phone-container .phone-screen {
     width: 100%;
+    min-height: 405px;
     background: #eee;
     overflow: hidden;
     position: relative;

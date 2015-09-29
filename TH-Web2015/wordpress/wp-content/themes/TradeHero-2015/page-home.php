@@ -151,8 +151,7 @@ get_header();
 	</section>
 	<section id="academy" class="row section academy">
 		<div class="row-content">
-			<h2 class="section-heading"><a class="button mobile-hide g-ytsubscribe red" href="https://www.youtube.com/user/TradeHeroMobile" target="_blank" data-channel="TradeHero"><span class="fa fa-youtube fa-lg"> </span> Subscribe</a><?php the_field('youtube_channel_caption'); ?></h2>
-			<div class="desktop-hide"><a class="button g-ytsubscribe red" href="https://www.youtube.com/user/TradeHeroMobile" target="_blank" data-channel="TradeHero"><span class="fa fa-youtube fa-lg"> </span> Subscribe</a></div>
+			<h2 class="section-heading"><?php the_field('youtube_channel_caption'); ?><a class="button g-ytsubscribe red" href="https://www.youtube.com/user/TradeHeroMobile" target="_blank" data-channel="TradeHero"><span class="fa fa-youtube fa-lg"> </span> Subscribe</a></h2>
 			<div class="section-summary"><?php the_field('youtube_channel_description'); ?></div>
 			<div class="desktop-slider video-slider" data-autoplay="3000">
 				<script class="ajax-get-helper" type="text/html"
@@ -226,7 +225,7 @@ get_header();
 												</dl>
 											</div>
 											<div class="column large-four small-three tiny-six charts">
-												<div class="leaderboard-chart" data-percent="49">
+												<div class="leaderboard-chart" data-percent="50">
 													<div class="chart-content">
 														<div class="chart-result green">{{ d.users[0].roiInPeriod.replace(/\.\d*\%$/, '%') }}</div>
 														<div class="chart-title">ROI in Period</div>
@@ -234,9 +233,9 @@ get_header();
 												</div>
 											</div>
 											<div class="column large-four large-last small-three small-last tiny-six tiny-last charts">
-												<div class="leaderboard-chart" data-percent="{{ d.users[0].winRatio * 100 }}">
+												<div class="leaderboard-chart" data-percent="{{ d.users[0].winRatio > 1 ? 50 : d.users[0].winRatio*50 }}">
 													<div class="chart-content">
-														<div class="percent"></div>
+														<div class="chart-result green">{{ d.users[0].winRatio*100 }}</div>
 														<div class="chart-title">Win Ratio</div>
 													</div>
 												</div>
