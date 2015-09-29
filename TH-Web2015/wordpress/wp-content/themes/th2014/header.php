@@ -8,8 +8,6 @@
     <title><?php wp_title(); ?> | <?php bloginfo( 'name' ); ?></title>
     <meta name="description" content="TradeHero">
     <meta name="keywords" content="TradeHero">
-    <meta name="google-site-verification" content="X9vYAZ-RIy0L_TZVlP0xzMMd_lPqfX-bevQ83zep4GI" />
-
     <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.ico">
     <link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/img/apple-touch-icon.jpg">
     <link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('template_directory'); ?>/img/apple-touch-icon-72x72.jpg">
