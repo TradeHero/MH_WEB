@@ -22,9 +22,9 @@ get_header();
 			<div class="column large-seven">
 				<h1 class="brand-name"><?php bloginfo('name'); ?>&nbsp;
 				<?php if( !empty( $intro_video_full_url ) ) { ?>
-					<a class="get-more popup-youtube mobile-hide" 
+					<a class="button transparent get-more popup-youtube mobile-hide" 
 					href="<?php echo $intro_video_full_url; ?>">
-						<span class="icon icon-youtube-play"></span> WATCH INTRO
+						<span class="fa fa-lg fa-play"></span> WATCH INTRO
 					</a>
 				<?php } ?>
 				</h1>
@@ -68,7 +68,7 @@ get_header();
 				</div>
 
 				<?php if( !empty( $intro_video_full_url ) ) { ?>
-				<a class="get-more desktop-hide" target="_blank" href="<?php echo $intro_video_full_url; ?>"><span class="icon icon-youtube-play"></span> WATCH INTRO</a>
+				<a class="button red transparent get-more desktop-hide" target="_blank" href="<?php echo $intro_video_full_url; ?>"><span class="fa fa-lg fa-play"></span> WATCH INTRO</a>
 				<?php } ?>
 			</div>
 			<div class="column large-five large-last right">

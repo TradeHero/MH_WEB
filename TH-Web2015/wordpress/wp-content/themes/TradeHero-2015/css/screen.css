@@ -3352,11 +3352,6 @@ i.fa.dark-grey {
     width: 72px;
     height: 72px;
 }
-.icon-youtube-play {
-    width: 26px;
-    height: 18px;
-    background-size: contain;
-}
 .icon-arrow-scroll-down {
     width: 72px;
     height: 16px;
@@ -4840,16 +4835,6 @@ footer .row-content.buffer {
 .phone-container.black {
     background-color: #222;
 }
-.phone-container+.watch-intro {
-    width: 100%;
-    max-width: 310px;
-    text-align: center;
-    margin: 20px;
-}
-.last .phone-container,
-.last .phone-container+.watch-intro {
-    float: right;
-}
 .phone-container .phone-screen {
     width: 100%;
     min-height: 405px;
@@ -6100,9 +6085,10 @@ footer .row-content.buffer {
     /*margin-top: 7rem;*/
 }
 .section.download .brand-name .get-more {
-    font-size: 0.35em;
+    font-size: 0.25em;
     vertical-align: middle;
     color: #478FE3;
+    margin: 0;
 }
 .section.download .get-more .icon {
     vertical-align: middle;
