@@ -48,7 +48,7 @@ $current_page = get_query_var('paged') ? get_query_var('paged') : 1;
 					if( !empty( $facebook_page_id ) ) {
 						// Prepend 2 facebook posts to the mansory
 						$perpage = get_field('fb_limit_per_page', 'option');
-						$offset = $current_page * $perpage;
+						$offset = ($current_page - 1) * $perpage;
 						$access_token = get_field('fb_access_token', 'option');
 					?>
 						<script class="ajax-get-helper" type="text/html" 

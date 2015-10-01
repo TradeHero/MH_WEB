@@ -19,14 +19,14 @@
 		<div id="main" class="row">
 			<div class="row-content buffer">
 				<div class="row">
-					<h1>Hiring in TradeHero</h1>
+					<h1>Join TradeHero</h1>
 					<?php
 					$decription = category_description( $cat );
 					if( empty( $description ) ) {
 						$decription = category_description( $careers_cat_ID  );
 					}
 					?>
-					<p><?php echo $decription; ?></p>
+					<div><?php echo $decription; ?></div>
 				</div>
 				<aside class="column small-three right">
 					<div class="widget">
@@ -41,13 +41,13 @@
 							?>
 						</ul>
 					</div>
-					<a class="button button-block blue" href="mailto:hiring@tradehero.mobi">Apply Now</a>
 				</aside>
 				<div class="column small-nine small-last">
 					<div class=" blog masonry-style">
 						<?php
-						while( have_posts() ) {
-							the_post();
+						if( have_posts() ) {
+							while( have_posts() ) {
+								the_post();
 						?>
 							<article>
 								<?php get_template_part( 'widget', 'post-meta-heading' ); ?>
@@ -55,6 +55,9 @@
 								<?php the_content(); ?>
 							</article>
 						<?php
+							}
+						} else {
+							echo '<p>No job descriptions available yet.</p>';
 						}
 						?>
 					</div>

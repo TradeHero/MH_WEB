@@ -158,13 +158,13 @@ get_header();
 				data-request="<?php
 					switch( get_field('youtube_channel_type') ) {
 						case 'playlist':
-							echo 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet'
+							echo 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,id'
 								. '&playlistId=' . get_field('youtube_playlist_ID')
 								. '&maxResults=' . get_field('youtube_channel_max_results')
 								. '&key=' . get_field('google_api_key');
 							break;
 						case 'channel':
-							echo 'https://www.googleapis.com/youtube/v3/search?part=snippet&type=video'
+							echo 'https://www.googleapis.com/youtube/v3/search?part=snippet,id&type=video'
 								. '&channelId=' . get_field('youtube_channel_ID')
 								. '&maxResults=' . get_field('youtube_channel_max_results')
 								. '&order=' . get_field('youtube_channel_order')
@@ -174,7 +174,7 @@ get_header();
 					<figure>
 						{{each items as video}}
 						<div class="youtube-thumbnail" style="background-image:url('{{video.snippet.thumbnails.high.url}}');">
-							<div class="youtube-video" data-video-id="{{video.id.videoId}}"><span class="youtube-play-button"></span></div>
+							<div class="youtube-video" data-video-id="{{ video.id.videoId ? video.id.videoId : video.snippet.resourceId.videoId }}"><span class="youtube-play-button"></span></div>
 							<div class="youtube-video-caption">{{video.snippet.title}}</div>
 						</div>
 						{{/each}}
