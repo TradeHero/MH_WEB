@@ -157,10 +157,10 @@ input:not([type="button"]):hover {
     border-color: #cad1d9 !important;
 }
 
-input:not([type="button"]):focus,
+/*input:not([type="button"]):focus,
 input:not([type="button"]):active {
-    /*border-color: #88d3ff !important;*/
-}
+    border-color: #88d3ff !important;
+}*/
 input[type="button"],
 input[type="submit"]{
     display: inline-block;
@@ -359,10 +359,10 @@ li>.row {
     clear: right;
 }
 @media only screen and (min-width:30em) {
-    .block-list > .tiny-last + .column[class*=" tiny-"], 
-    .block-list > .tiny-last + .column[class^=tiny-],
-    .block-list > .tiny-last + .column.right[class*=" tiny-"], 
-    .block-list > .tiny-last + .column.right[class^=tiny-] {
+    .block-list > .tiny-last + .column[class*=" small-"], 
+    .block-list > .tiny-last + .column[class^=small-],
+    .block-list > .tiny-last + .column.right[class*=" small-"], 
+    .block-list > .tiny-last + .column.right[class^=small-] {
         clear: none;
     }
     .block-list > .small-last + .column[class*=" small-"], 
@@ -375,10 +375,14 @@ li>.row {
     }
 }
 @media only screen and (min-width:48em) {
-    .block-list > .small-last + .column[class*=" small-"], 
-    .block-list > .small-last + .column[class^=small-],
-    .block-list > .small-last + .column.right[class*=" small-"], 
-    .block-list > .small-last + .column.right[class^=small-] {
+    .block-list > .tiny-last + .column[class*=" medium-"], 
+    .block-list > .tiny-last + .column[class^=medium-],
+    .block-list > .tiny-last + .column.right[class*=" medium-"], 
+    .block-list > .tiny-last + .column.right[class^=medium-],
+    .block-list > .small-last + .column[class*=" medium-"], 
+    .block-list > .small-last + .column[class^=medium-],
+    .block-list > .small-last + .column.right[class*=" medium-"], 
+    .block-list > .small-last + .column.right[class^=medium-] {
         clear: none;
     }
     .block-list > .medium-last + .column[class*=" medium-"], 
@@ -390,11 +394,19 @@ li>.row {
         clear: right;
     }
 }
-@media only screen and (min-width:64em) and (max-width: 80em) {
-    .block-list > .medium-last + .column[class*=" medium-"], 
-    .block-list > .medium-last + .column[class^=medium-],
-    .block-list > .medium-last + .column.right[class*=" medium-"], 
-    .block-list > .medium-last + .column.right[class^=medium-] {
+@media only screen and (min-width:64em) {
+    .block-list > .tiny-last + .column[class*=" large-"], 
+    .block-list > .tiny-last + .column[class^=large-],
+    .block-list > .tiny-last + .column.right[class*=" large-"], 
+    .block-list > .tiny-last + .column.right[class^=large-],
+    .block-list > .small-last + .column[class*=" large-"], 
+    .block-list > .small-last + .column[class^=large-],
+    .block-list > .small-last + .column.right[class*=" large-"], 
+    .block-list > .small-last + .column.right[class^=large-],
+    .block-list > .medium-last + .column[class*=" large-"], 
+    .block-list > .medium-last + .column[class^=large-],
+    .block-list > .medium-last + .column.right[class*=" large-"], 
+    .block-list > .medium-last + .column.right[class^=large-] {
         clear: none;
     }
     .block-list > .large-last + .column[class*=" large-"], 
@@ -407,10 +419,22 @@ li>.row {
     }
 }
 @media only screen and (min-width:80em) {
-    .block-list > .large-last + .column[class*=" large-"], 
-    .block-list > .large-last + .column[class^=large-],
-    .block-list > .large-last + .column.right[class*=" large-"], 
-    .block-list > .large-last + .column.right[class^=large-] {
+    .block-list > .tiny-last + .column[class*=" huge-"], 
+    .block-list > .tiny-last + .column[class^=huge-],
+    .block-list > .tiny-last + .column.right[class*=" huge-"], 
+    .block-list > .tiny-last + .column.right[class^=huge-],
+    .block-list > .small-last + .column[class*=" huge-"], 
+    .block-list > .small-last + .column[class^=huge-],
+    .block-list > .small-last + .column.right[class*=" huge-"], 
+    .block-list > .small-last + .column.right[class^=huge-],
+    .block-list > .medium-last + .column[class*=" huge-"], 
+    .block-list > .medium-last + .column[class^=huge-],
+    .block-list > .medium-last + .column.right[class*=" huge-"], 
+    .block-list > .medium-last + .column.right[class^=huge-],
+    .block-list > .large-last + .column[class*=" huge-"], 
+    .block-list > .large-last + .column[class^=huge-],
+    .block-list > .large-last + .column.right[class*=" huge-"], 
+    .block-list > .large-last + .column.right[class^=huge-] {
         clear: none;
     }
     .block-list > .huge-last + .column[class*=" huge-"], 
@@ -423,10 +447,26 @@ li>.row {
     }
 }
 @media only screen and (min-width:90em) {
-    .block-list > .extra-last + .column[class*=" extra-"], 
-    .block-list > .extra-last + .column[class^=extra-],
-    .block-list > .extra-last + .column.right[class*=" extra-"], 
-    .block-list > .extra-last + .column.right[class^=extra-] {
+    .block-list > .tiny-last + .column[class*=" extra-"], 
+    .block-list > .tiny-last + .column[class^=extra-],
+    .block-list > .tiny-last + .column.right[class*=" extra-"], 
+    .block-list > .tiny-last + .column.right[class^=extra-],
+    .block-list > .small-last + .column[class*=" extra-"], 
+    .block-list > .small-last + .column[class^=extra-],
+    .block-list > .small-last + .column.right[class*=" extra-"], 
+    .block-list > .small-last + .column.right[class^=extra-]
+    .block-list > .medium-last + .column[class*=" extra-"], 
+    .block-list > .medium-last + .column[class^=extra-],
+    .block-list > .medium-last + .column.right[class*=" extra-"], 
+    .block-list > .medium-last + .column.right[class^=extra-]
+    .block-list > .large-last + .column[class*=" extra-"], 
+    .block-list > .large-last + .column[class^=extra-],
+    .block-list > .large-last + .column.right[class*=" extra-"], 
+    .block-list > .large-last + .column.right[class^=extra-]
+    .block-list > .huge-last + .column[class*=" extra-"], 
+    .block-list > .huge-last + .column[class^=extra-],
+    .block-list > .huge-last + .column.right[class*=" extra-"], 
+    .block-list > .huge-last + .column.right[class^=extra-] {
         clear: none;
     }
     .block-list > .extra-last + .column[class*=" extra-"], 

@@ -16,17 +16,20 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'thwp');
+define('DB_NAME', 'thwp_staging');
 
 /** MySQL database username */
 // define('DB_USER', 'thadmin');
+// define('DB_USER', 'thweb_admin');
 define('DB_USER', 'root');
 
 /** MySQL database password */
 // define('DB_PASSWORD', 'password9901');
+// define('DB_PASSWORD', 'P@ssword9901');
 define('DB_PASSWORD', '123');
 
 /** MySQL hostname */
+// define('DB_HOST', 'websql.tradehero.mobi');
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
@@ -61,7 +64,7 @@ define('NONCE_SALT',       'Hhvl}Ubza{CMW-W:Z)mBz7WpTNPFMR:z&edM;86TT%Q+}:+2)T^v
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'wp_pjjbr9_';
 
 /**
  * WordPress Localized Language, defaults to English.
@@ -80,7 +83,7 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 

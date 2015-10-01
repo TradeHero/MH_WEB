@@ -22,10 +22,10 @@ get_header();
 			<div class="column large-seven">
 				<h1 class="brand-name"><?php bloginfo('name'); ?>&nbsp;
 				<?php if( !empty( $intro_video_full_url ) ) { ?>
-					<a class="button transparent get-more popup-youtube mobile-hide" 
+					<span class="mobile-hide"><a class="button transparent red get-more popup-youtube" 
 					href="<?php echo $intro_video_full_url; ?>">
 						<span class="fa fa-lg fa-play"></span> WATCH INTRO
-					</a>
+					</a></span>
 				<?php } ?>
 				</h1>
 				<h2 class="section-heading"><?php bloginfo('description'); ?></h2>
@@ -68,7 +68,7 @@ get_header();
 				</div>
 
 				<?php if( !empty( $intro_video_full_url ) ) { ?>
-				<a class="button red transparent get-more desktop-hide" target="_blank" href="<?php echo $intro_video_full_url; ?>"><span class="fa fa-lg fa-play"></span> WATCH INTRO</a>
+				<div class="desktop-hide"><a class="button red transparent get-more" target="_blank" href="<?php echo $intro_video_full_url; ?>"><span class="fa fa-lg fa-play"></span> WATCH INTRO</a></div>
 				<?php } ?>
 			</div>
 			<div class="column large-five large-last right">
@@ -235,7 +235,7 @@ get_header();
 											<div class="column large-four large-last small-three small-last tiny-six tiny-last charts">
 												<div class="leaderboard-chart" data-percent="{{ d.users[0].winRatio > 1 ? 50 : d.users[0].winRatio*50 }}">
 													<div class="chart-content">
-														<div class="chart-result green">{{ d.users[0].winRatio*100 }}</div>
+														<div class="chart-result green">{{ d.users[0].winRatio*100 | number:2 }}</div>
 														<div class="chart-title">Win Ratio</div>
 													</div>
 												</div>
